@@ -1,0 +1,42 @@
+{
+  "1": {
+    "feasible": true,
+    "status": "optimal_search",
+    "message": "best reviewed deterministic trace found",
+    "objective_value": 11212.5,
+    "final_state": {
+      "day": 30,
+      "node": 27,
+      "cash": 11210,
+      "water": 1,
+      "food": 0,
+      "finished": true
+    },
+    "metadata": {
+      "final_terminal_value": 11212.5,
+      "visited_states": 416322,
+      "max_states_per_bucket": 800,
+      "purchase_step": 25
+    }
+  },
+  "2": {
+    "feasible": true,
+    "status": "optimal_search",
+    "message": "best reviewed deterministic trace found",
+    "objective_value": 12317.5,
+    "final_state": {
+      "day": 30,
+      "node": 64,
+      "cash": 12250,
+      "water": 7,
+      "food": 10,
+      "finished": true
+    },
+    "metadata": {
+      "final_terminal_value": 12317.5,
+      "visited_states": 725089,
+      "max_states_per_bucket": 800,
+      "purchase_step": 25
+    }
+  }
+}

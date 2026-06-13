@@ -1,0 +1,47 @@
+{
+  "file": "2020B-穿越沙漠.docx",
+  "media": [
+    "word/media/image8.wmf",
+    "word/media/image7.wmf",
+    "word/media/image9.wmf",
+    "word/media/image10.wmf",
+    "word/media/image11.wmf",
+    "word/media/image2.wmf",
+    "word/media/image1.wmf",
+    "word/media/image3.wmf",
+    "word/media/image4.wmf",
+    "word/media/image5.wmf",
+    "word/media/image6.wmf"
+  ],
+  "embeddings": [
+    "word/embeddings/oleObject13.bin",
+    "word/embeddings/oleObject8.bin",
+    "word/embeddings/oleObject9.bin",
+    "word/embeddings/oleObject7.bin",
+    "word/embeddings/oleObject6.bin",
+    "word/embeddings/oleObject11.bin",
+    "word/embeddings/oleObject12.bin",
+    "word/embeddings/oleObject10.bin",
+    "word/embeddings/oleObject5.bin",
+    "word/embeddings/oleObject1.bin",
+    "word/embeddings/oleObject2.bin",
+    "word/embeddings/oleObject3.bin",
+    "word/embeddings/oleObject4.bin"
+  ],
+  "shape_count": 0,
+  "line_count": 1,
+  "shapes_with_text": [],
+  "lines": [
+    {
+      "index": 1,
+      "id": "Line 2",
+      "from": "0,6.8pt",
+      "to": "414pt,7.4pt",
+      "style": "position:absolute;left:0;text-align:left;z-index:251658240;visibility:visible"
+    }
+  ],
+  "review_notes": [
+    "Maps and formulas are stored as VML/WMF/OLE objects.",
+    "Use this summary to create a manually reviewed adjacency table before final solve."
+  ]
+}

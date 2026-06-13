@@ -1,0 +1,368 @@
+[
+  {
+    "level_id": 3,
+    "name": "第三关",
+    "config_issues": [],
+    "strategy": "按场景集合做稳健比较，优先选择最坏收益较高且失败率较低的策略。失败率=0.0%，最优=9670，最差=9670。",
+    "scenario_count": 40,
+    "feasible_scenarios": 40,
+    "best_objective": 9670.0,
+    "worst_objective": 9670.0,
+    "notes": [
+      "13 节点地图、矿山 9、终点 13 已核对；10 天内无沙暴。",
+      "Adjacency was generated from VML/visible map geometry and should be treated as an auto-extracted candidate until manually checked."
+    ],
+    "failure_rate": 0.0,
+    "mean_objective": 9670.0,
+    "sensitivity_by_storm_count": {
+      "0_storms": {
+        "count": 40,
+        "feasible": 40,
+        "best": 9670.0,
+        "worst": 9670.0
+      }
+    },
+    "rolling_strategy": {
+      "feasible": true,
+      "objective": 9670.0,
+      "steps_sample": [
+        {
+          "day": 0,
+          "node": 1,
+          "cash": 9670,
+          "water": 18,
+          "food": 24,
+          "action": "buy_start"
+        },
+        {
+          "day": 1,
+          "node": 8,
+          "cash": 9670,
+          "water": 12,
+          "food": 16,
+          "action": "move"
+        },
+        {
+          "day": 2,
+          "node": 10,
+          "cash": 9670,
+          "water": 6,
+          "food": 8,
+          "action": "move"
+        },
+        {
+          "day": 3,
+          "node": 13,
+          "cash": 9670,
+          "water": 0,
+          "food": 0,
+          "action": "move"
+        }
+      ]
+    },
+    "scenario_table": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/report_tables/level_3_scenarios.csv"
+  },
+  {
+    "level_id": 4,
+    "name": "第四关",
+    "config_issues": [],
+    "strategy": "按场景集合做稳健比较，优先选择最坏收益较高且失败率较低的策略。失败率=0.0%，最优=9120，最差=9120。",
+    "scenario_count": 40,
+    "feasible_scenarios": 40,
+    "best_objective": 9120.0,
+    "worst_objective": 9120.0,
+    "notes": [
+      "25 节点地图、矿山 18、村庄 14、终点 25 已核对；30 天内较少沙暴。",
+      "Adjacency was generated from VML/visible map geometry and should be treated as an auto-extracted candidate until manually checked."
+    ],
+    "failure_rate": 0.0,
+    "mean_objective": 9120.0,
+    "sensitivity_by_storm_count": {
+      "0_storms": {
+        "count": 15,
+        "feasible": 15,
+        "best": 9120.0,
+        "worst": 9120.0
+      },
+      "1_storms": {
+        "count": 17,
+        "feasible": 17,
+        "best": 9120.0,
+        "worst": 9120.0
+      },
+      "2_storms": {
+        "count": 7,
+        "feasible": 7,
+        "best": 9120.0,
+        "worst": 9120.0
+      },
+      "3_storms": {
+        "count": 1,
+        "feasible": 1,
+        "best": 9120.0,
+        "worst": 9120.0
+      }
+    },
+    "rolling_strategy": {
+      "feasible": true,
+      "objective": 9120.0,
+      "steps_sample": [
+        {
+          "day": 0,
+          "node": 1,
+          "cash": 9120,
+          "water": 48,
+          "food": 64,
+          "action": "buy_start"
+        },
+        {
+          "day": 1,
+          "node": 2,
+          "cash": 9120,
+          "water": 42,
+          "food": 56,
+          "action": "move"
+        },
+        {
+          "day": 2,
+          "node": 3,
+          "cash": 9120,
+          "water": 36,
+          "food": 48,
+          "action": "move"
+        },
+        {
+          "day": 3,
+          "node": 4,
+          "cash": 9120,
+          "water": 30,
+          "food": 40,
+          "action": "move"
+        },
+        {
+          "day": 4,
+          "node": 5,
+          "cash": 9120,
+          "water": 24,
+          "food": 32,
+          "action": "move"
+        }
+      ]
+    },
+    "scenario_table": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/report_tables/level_4_scenarios.csv"
+  },
+  {
+    "level_id": 5,
+    "name": "第五关",
+    "config_issues": [],
+    "strategy": "第五关：2 名玩家，已知天气，合作策略。单人最优目标值=9392.5。已计算合作策略收益和偏离检查。已生成 2 种分组方案的参数对比。",
+    "scenario_count": 0,
+    "feasible_scenarios": 0,
+    "best_objective": null,
+    "worst_objective": null,
+    "notes": [
+      "2 名玩家（从附件 MathType OLE 方程提取确认），已知天气，所有玩家行动方案在第 0 天确定后不能更改。",
+      "多人规则：同行消耗 2k 倍，同矿消耗 3 倍、收益 1/k，同村价格 4 倍。",
+      "Adjacency was generated from VML/visible map geometry and should be treated as an auto-extracted candidate until manually checked."
+    ],
+    "multiplayer": {
+      "ready": true,
+      "issues": [],
+      "effect_table": [
+        {
+          "same_group_count": 1,
+          "move_multiplier": 2,
+          "mine_multiplier": 3.0,
+          "income_multiplier": 1.0,
+          "village_price_multiplier": 4
+        },
+        {
+          "same_group_count": 2,
+          "move_multiplier": 4,
+          "mine_multiplier": 3.0,
+          "income_multiplier": 0.5,
+          "village_price_multiplier": 4
+        }
+      ],
+      "recommended_model": "用合作策略生成候选联合行动，再用每日滚动重优化处理第六关信息更新。"
+    },
+    "grouping_scenarios": [
+      {
+        "label": "all_together",
+        "description": "2 人全程同行同矿同村",
+        "group_sizes": [
+          2
+        ],
+        "multiplier_summary": [
+          {
+            "k": 2,
+            "move_multiplier": 4,
+            "mine_multiplier": 3.0,
+            "income_multiplier": 0.5,
+            "village_price_multiplier": 4
+          }
+        ]
+      },
+      {
+        "label": "all_solo",
+        "description": "2 人各自独立",
+        "group_sizes": [
+          1,
+          1
+        ],
+        "multiplier_summary": [
+          {
+            "k": 1,
+            "move_multiplier": 2,
+            "mine_multiplier": 3.0,
+            "income_multiplier": 1.0,
+            "village_price_multiplier": 4
+          },
+          {
+            "k": 1,
+            "move_multiplier": 2,
+            "mine_multiplier": 3.0,
+            "income_multiplier": 1.0,
+            "village_price_multiplier": 4
+          }
+        ]
+      }
+    ],
+    "cooperative_analysis": {
+      "feasible": false,
+      "single_objective": 9392.5,
+      "cooperative_total": null,
+      "failure_reason": "resource exhaustion at day 3 with k=2"
+    },
+    "single_player_objective": 9392.5,
+    "deviation_analysis": {
+      "note": "合作策略不可行或数据不足，无法计算偏离收益。"
+    }
+  },
+  {
+    "level_id": 6,
+    "name": "第六关",
+    "config_issues": [],
+    "strategy": "第六关：3 名玩家，未知天气，滚动策略。单人最优目标值=9120.0（基于采样场景）。已计算合作策略收益、失败率和偏离检查。已生成 3 种分组方案的参数对比。",
+    "scenario_count": 0,
+    "feasible_scenarios": 0,
+    "best_objective": null,
+    "worst_objective": null,
+    "notes": [
+      "3 名玩家（从附件 MathType OLE 方程提取确认），未知天气，每天行动后可观察他人方案和剩余资源。",
+      "多人规则同第五关；使用滚动博弈/合作策略框架。",
+      "Adjacency was generated from VML/visible map geometry and should be treated as an auto-extracted candidate until manually checked."
+    ],
+    "multiplayer": {
+      "ready": true,
+      "issues": [],
+      "effect_table": [
+        {
+          "same_group_count": 1,
+          "move_multiplier": 2,
+          "mine_multiplier": 3.0,
+          "income_multiplier": 1.0,
+          "village_price_multiplier": 4
+        },
+        {
+          "same_group_count": 2,
+          "move_multiplier": 4,
+          "mine_multiplier": 3.0,
+          "income_multiplier": 0.5,
+          "village_price_multiplier": 4
+        },
+        {
+          "same_group_count": 3,
+          "move_multiplier": 6,
+          "mine_multiplier": 3.0,
+          "income_multiplier": 0.3333333333333333,
+          "village_price_multiplier": 4
+        }
+      ],
+      "recommended_model": "用合作策略生成候选联合行动，再用每日滚动重优化处理第六关信息更新。"
+    },
+    "grouping_scenarios": [
+      {
+        "label": "all_together",
+        "description": "3 人全程同行同矿同村",
+        "group_sizes": [
+          3
+        ],
+        "multiplier_summary": [
+          {
+            "k": 3,
+            "move_multiplier": 6,
+            "mine_multiplier": 3.0,
+            "income_multiplier": 0.3333333333333333,
+            "village_price_multiplier": 4
+          }
+        ]
+      },
+      {
+        "label": "pair_plus_solo",
+        "description": "2+1 分组",
+        "group_sizes": [
+          2,
+          1
+        ],
+        "multiplier_summary": [
+          {
+            "k": 2,
+            "move_multiplier": 4,
+            "mine_multiplier": 3.0,
+            "income_multiplier": 0.5,
+            "village_price_multiplier": 4
+          },
+          {
+            "k": 1,
+            "move_multiplier": 2,
+            "mine_multiplier": 3.0,
+            "income_multiplier": 1.0,
+            "village_price_multiplier": 4
+          }
+        ]
+      },
+      {
+        "label": "all_solo",
+        "description": "3 人各自独立",
+        "group_sizes": [
+          1,
+          1,
+          1
+        ],
+        "multiplier_summary": [
+          {
+            "k": 1,
+            "move_multiplier": 2,
+            "mine_multiplier": 3.0,
+            "income_multiplier": 1.0,
+            "village_price_multiplier": 4
+          },
+          {
+            "k": 1,
+            "move_multiplier": 2,
+            "mine_multiplier": 3.0,
+            "income_multiplier": 1.0,
+            "village_price_multiplier": 4
+          },
+          {
+            "k": 1,
+            "move_multiplier": 2,
+            "mine_multiplier": 3.0,
+            "income_multiplier": 1.0,
+            "village_price_multiplier": 4
+          }
+        ]
+      }
+    ],
+    "cooperative_analysis": {
+      "feasible_count": 0,
+      "total_scenarios": 10,
+      "failure_rate": 1.0
+    },
+    "single_player_objective": 9120.0,
+    "deviation_analysis": {
+      "note": "合作策略不可行或数据不足，无法计算偏离收益。"
+    }
+  }
+]

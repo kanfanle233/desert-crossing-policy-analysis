@@ -1,0 +1,11 @@
+{
+  "figures": [
+    "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/figures/level_1_path.png",
+    "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/figures/level_1_resources.png",
+    "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/figures/level_2_path.png",
+    "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/figures/level_2_resources.png"
+  ],
+  "frontend": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/frontend/index.html",
+  "frontend_data": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/frontend/dashboard-data.js",
+  "frontend_vendor": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/frontend/vendor/d3.v7.min.js"
+}
