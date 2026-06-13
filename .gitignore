@@ -1,0 +1,30 @@
+# macOS and editor/system files
+.DS_Store
+**/.DS_Store
+.claude/
+.idea/
+.vscode/
+
+# Python caches and local environments
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local logs and temporary smoke-test screenshots
+*.log
+output/frontend_smoke_*.png
+
+# Keep generated report/dashboard assets that are useful for README and demos.
+!docs/assets/dashboard-preview.png
+!output/frontend/
+!output/figures/
+!output/report_tables/
+!output/solutions/
+!output/result/
+!output/logs/

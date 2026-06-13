@@ -1,0 +1,3249 @@
+{
+  "file": "附件.docx",
+  "media": [
+    "word/media/image2.wmf",
+    "word/media/image1.wmf"
+  ],
+  "embeddings": [
+    "word/embeddings/oleObject1.bin",
+    "word/embeddings/oleObject2.bin"
+  ],
+  "shape_count": 311,
+  "line_count": 268,
+  "shapes_with_text": [
+    {
+      "id": "文本框 75",
+      "text": "起点1",
+      "left": 4917,
+      "top": 1142,
+      "width": 736,
+      "height": 768
+    },
+    {
+      "id": "文本框 76",
+      "text": "2",
+      "left": 4512,
+      "top": 1824,
+      "width": 354,
+      "height": 768
+    },
+    {
+      "id": "文本框 74",
+      "text": "6",
+      "left": 6540,
+      "top": 4059,
+      "width": 685,
+      "height": 768
+    },
+    {
+      "id": "文本框 77",
+      "text": "3",
+      "left": 4789,
+      "top": 2559,
+      "width": 354,
+      "height": 768
+    },
+    {
+      "id": "文本框 78",
+      "text": "4",
+      "left": 5563,
+      "top": 2636,
+      "width": 354,
+      "height": 768
+    },
+    {
+      "id": "文本框 79",
+      "text": "5",
+      "left": 5759,
+      "top": 3630,
+      "width": 354,
+      "height": 768
+    },
+    {
+      "id": "文本框 80",
+      "text": "8",
+      "left": 7051,
+      "top": 5158,
+      "width": 354,
+      "height": 768
+    },
+    {
+      "id": "文本框 81",
+      "text": "9",
+      "left": 7865,
+      "top": 5424,
+      "width": 354,
+      "height": 768
+    },
+    {
+      "id": "文本框 82",
+      "text": "7",
+      "left": 6935,
+      "top": 4483,
+      "width": 354,
+      "height": 768
+    },
+    {
+      "id": "文本框 84",
+      "text": "10",
+      "left": 6974,
+      "top": 6587,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 91",
+      "text": "11",
+      "left": 6974,
+      "top": 7495,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 92",
+      "text": "矿山12",
+      "left": 7960,
+      "top": 7968,
+      "width": 1067,
+      "height": 456
+    },
+    {
+      "id": "文本框 93",
+      "text": "13",
+      "left": 7534,
+      "top": 7378,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 94",
+      "text": "14",
+      "left": 8124,
+      "top": 7378,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 95",
+      "text": "村庄15",
+      "left": 7650,
+      "top": 6663,
+      "width": 1148,
+      "height": 456
+    },
+    {
+      "id": "文本框 97",
+      "text": "16",
+      "left": 8827,
+      "top": 6457,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 98",
+      "text": "17",
+      "left": 8618,
+      "top": 5251,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 99",
+      "text": "19",
+      "left": 9763,
+      "top": 4857,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 100",
+      "text": "18",
+      "left": 9230,
+      "top": 5251,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 102",
+      "text": "20",
+      "left": 9493,
+      "top": 4542,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 103",
+      "text": "21",
+      "left": 8741,
+      "top": 3630,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 104",
+      "text": "22",
+      "left": 7588,
+      "top": 4377,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 105",
+      "text": "23",
+      "left": 7526,
+      "top": 3299,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 106",
+      "text": "24",
+      "left": 6724,
+      "top": 2978,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 107",
+      "text": "25",
+      "left": 5889,
+      "top": 1635,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 108",
+      "text": "26",
+      "left": 7572,
+      "top": 1644,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "文本框 110",
+      "text": "终点27",
+      "left": 8564,
+      "top": 1606,
+      "width": 752,
+      "height": 768
+    },
+    {
+      "id": "六边形 3",
+      "text": "1",
+      "left": 3962,
+      "top": 1590,
+      "width": 1134,
+      "height": 981
+    },
+    {
+      "id": "六边形 4",
+      "text": "22",
+      "left": 4943,
+      "top": 1590,
+      "width": 1134,
+      "height": 981
+    },
+    {
+      "id": "_x0000_s1206",
+      "text": "起点1",
+      "left": 3998,
+      "top": 1613,
+      "width": 1001,
+      "height": 1005
+    },
+    {
+      "id": "文本框 124",
+      "text": "2",
+      "left": 5237,
+      "top": 1569,
+      "width": 561,
+      "height": 1005
+    },
+    {
+      "id": "文本框 125",
+      "text": "3",
+      "left": 6192,
+      "top": 1582,
+      "width": 561,
+      "height": 1005
+    },
+    {
+      "id": "文本框 126",
+      "text": "4",
+      "left": 7185,
+      "top": 1596,
+      "width": 561,
+      "height": 1005
+    },
+    {
+      "id": "文本框 127",
+      "text": "5",
+      "left": 8141,
+      "top": 1595,
+      "width": 561,
+      "height": 1005
+    },
+    {
+      "id": "文本框 128",
+      "text": "6",
+      "left": 9121,
+      "top": 1575,
+      "width": 561,
+      "height": 1005
+    },
+    {
+      "id": "文本框 129",
+      "text": "7",
+      "left": 10142,
+      "top": 1622,
+      "width": 561,
+      "height": 1005
+    },
+    {
+      "id": "文本框 130",
+      "text": "8",
+      "left": 11134,
+      "top": 1582,
+      "width": 561,
+      "height": 1005
+    },
+    {
+      "id": "文本框 131",
+      "text": "9",
+      "left": 4707,
+      "top": 2505,
+      "width": 561,
+      "height": 1005
+    },
+    {
+      "id": "文本框 132",
+      "text": "10",
+      "left": 5583,
+      "top": 2492,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 133",
+      "text": "11",
+      "left": 6591,
+      "top": 2479,
+      "width": 730,
+      "height": 1005
+    },
+    {
+      "id": "文本框 134",
+      "text": "12",
+      "left": 7559,
+      "top": 2466,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 135",
+      "text": "13",
+      "left": 8579,
+      "top": 2466,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 136",
+      "text": "14",
+      "left": 9560,
+      "top": 2466,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 137",
+      "text": "15",
+      "left": 10514,
+      "top": 2466,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 138",
+      "text": "16",
+      "left": 11535,
+      "top": 2453,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 139",
+      "text": "17",
+      "left": 4111,
+      "top": 3368,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 140",
+      "text": "18",
+      "left": 5132,
+      "top": 3407,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 141",
+      "text": "19",
+      "left": 6086,
+      "top": 3368,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 142",
+      "text": "20",
+      "left": 7055,
+      "top": 3381,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 143",
+      "text": "21",
+      "left": 8074,
+      "top": 3382,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 144",
+      "text": "22",
+      "left": 9056,
+      "top": 3381,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 145",
+      "text": "23",
+      "left": 10011,
+      "top": 3368,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 146",
+      "text": "24",
+      "left": 11003,
+      "top": 3368,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 147",
+      "text": "25",
+      "left": 4589,
+      "top": 4277,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 148",
+      "text": "26",
+      "left": 5623,
+      "top": 4290,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 149",
+      "text": "27",
+      "left": 6604,
+      "top": 4304,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 150",
+      "text": "28",
+      "left": 7598,
+      "top": 4284,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 151",
+      "text": "29",
+      "left": 8579,
+      "top": 4304,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 153",
+      "text": "31",
+      "left": 10529,
+      "top": 4297,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 154",
+      "text": "32",
+      "left": 11509,
+      "top": 4310,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 155",
+      "text": "33",
+      "left": 4137,
+      "top": 5187,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 156",
+      "text": "34",
+      "left": 5145,
+      "top": 5174,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 157",
+      "text": "35",
+      "left": 6099,
+      "top": 5200,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 158",
+      "text": "36",
+      "left": 7079,
+      "top": 5187,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 159",
+      "text": "37",
+      "left": 8076,
+      "top": 5187,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 160",
+      "text": "38",
+      "left": 9081,
+      "top": 5161,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 162",
+      "text": "40",
+      "left": 10992,
+      "top": 5187,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 163",
+      "text": "41",
+      "left": 4615,
+      "top": 6072,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 164",
+      "text": "42",
+      "left": 5623,
+      "top": 6059,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 165",
+      "text": "43",
+      "left": 6577,
+      "top": 6072,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 166",
+      "text": "44",
+      "left": 7596,
+      "top": 6072,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 167",
+      "text": "45",
+      "left": 8552,
+      "top": 6072,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 168",
+      "text": "46",
+      "left": 9520,
+      "top": 6098,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 169",
+      "text": "47",
+      "left": 10554,
+      "top": 6072,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 170",
+      "text": "48",
+      "left": 11496,
+      "top": 6072,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 171",
+      "text": "49",
+      "left": 4150,
+      "top": 7013,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 172",
+      "text": "50",
+      "left": 5119,
+      "top": 7000,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 173",
+      "text": "51",
+      "left": 6100,
+      "top": 7012,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 174",
+      "text": "52",
+      "left": 7068,
+      "top": 7013,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 175",
+      "text": "53",
+      "left": 8022,
+      "top": 6987,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 176",
+      "text": "54",
+      "left": 9003,
+      "top": 7013,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 178",
+      "text": "56",
+      "left": 11018,
+      "top": 7013,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 179",
+      "text": "57",
+      "left": 4589,
+      "top": 7870,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 180",
+      "text": "58",
+      "left": 5570,
+      "top": 7883,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 181",
+      "text": "59",
+      "left": 6577,
+      "top": 7844,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 182",
+      "text": "60",
+      "left": 7570,
+      "top": 7883,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 183",
+      "text": "61",
+      "left": 8604,
+      "top": 7910,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "文本框 185",
+      "text": "63",
+      "left": 10475,
+      "top": 7870,
+      "width": 745,
+      "height": 1005
+    },
+    {
+      "id": "_x0000_s1265",
+      "text": "终点64",
+      "left": 11474,
+      "top": 7879,
+      "width": 928,
+      "height": 1005
+    },
+    {
+      "id": "文本框 123",
+      "text": "矿山30",
+      "left": 0,
+      "top": 6,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "id": "_x0000_s1267",
+      "text": "村庄39",
+      "left": 0,
+      "top": 7,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "id": "_x0000_s1268",
+      "text": "矿山55",
+      "left": 0,
+      "top": 15,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "id": "_x0000_s1269",
+      "text": "村庄62",
+      "left": 0,
+      "top": 3,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "id": "_x0000_s1270",
+      "text": "矿山9",
+      "left": 0,
+      "top": 75,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "id": "文本框 186",
+      "text": "终点13",
+      "left": 0,
+      "top": 125,
+      "width": 35,
+      "height": 38
+    },
+    {
+      "id": "_x0000_s1272",
+      "text": "起点1",
+      "left": 0,
+      "top": 209,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "id": "文本框 32",
+      "text": "2",
+      "left": 2015,
+      "top": 3815,
+      "width": 732,
+      "height": 986
+    },
+    {
+      "id": "文本框 33",
+      "text": "3",
+      "left": 4777,
+      "top": 2548,
+      "width": 662,
+      "height": 986
+    },
+    {
+      "id": "文本框 34",
+      "text": "4",
+      "left": 5439,
+      "top": 4186,
+      "width": 606,
+      "height": 986
+    },
+    {
+      "id": "文本框 35",
+      "text": "5",
+      "left": 4820,
+      "top": 6603,
+      "width": 1154,
+      "height": 986
+    },
+    {
+      "id": "文本框 36",
+      "text": "6",
+      "left": 8737,
+      "top": 6260,
+      "width": 1119,
+      "height": 986
+    },
+    {
+      "id": "文本框 37",
+      "text": "7",
+      "left": 7722,
+      "top": 4054,
+      "width": 502,
+      "height": 986
+    },
+    {
+      "id": "文本框 38",
+      "text": "8",
+      "left": 5254,
+      "top": 1459,
+      "width": 869,
+      "height": 986
+    },
+    {
+      "id": "文本框 40",
+      "text": "10",
+      "left": 8224,
+      "top": 679,
+      "width": 1199,
+      "height": 1149
+    },
+    {
+      "id": "文本框 41",
+      "text": "11",
+      "left": 8418,
+      "top": 2377,
+      "width": 1337,
+      "height": 1787
+    },
+    {
+      "id": "文本框 42",
+      "text": "12",
+      "left": 9309,
+      "top": 3560,
+      "width": 1182,
+      "height": 1185
+    },
+    {
+      "id": "_x0000_s1310",
+      "text": "矿山18",
+      "left": 15582,
+      "top": 22225,
+      "width": 4852,
+      "height": 4876
+    },
+    {
+      "id": "_x0000_s1311",
+      "text": "村庄14",
+      "left": 23047,
+      "top": 16017,
+      "width": 4851,
+      "height": 4877
+    },
+    {
+      "id": "文本框 212",
+      "text": "2",
+      "left": 1512,
+      "top": 266,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 213",
+      "text": "3",
+      "left": 2646,
+      "top": 266,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 214",
+      "text": "4",
+      "left": 3780,
+      "top": 266,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 215",
+      "text": "5",
+      "left": 4915,
+      "top": 266,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 216",
+      "text": "6",
+      "left": 351,
+      "top": 1360,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 217",
+      "text": "7",
+      "left": 1474,
+      "top": 1365,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 218",
+      "text": "8",
+      "left": 2586,
+      "top": 1360,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 220",
+      "text": "10",
+      "left": 4764,
+      "top": 1367,
+      "width": 755,
+      "height": 768
+    },
+    {
+      "id": "文本框 221",
+      "text": "11",
+      "left": 200,
+      "top": 2523,
+      "width": 755,
+      "height": 768
+    },
+    {
+      "id": "文本框 222",
+      "text": "12",
+      "left": 1229,
+      "top": 2545,
+      "width": 981,
+      "height": 768
+    },
+    {
+      "id": "文本框 223",
+      "text": "13",
+      "left": 2454,
+      "top": 2512,
+      "width": 880,
+      "height": 768
+    },
+    {
+      "id": "文本框 224",
+      "text": "9",
+      "left": 3402,
+      "top": 1376,
+      "width": 1099,
+      "height": 768
+    },
+    {
+      "id": "文本框 225",
+      "text": "15",
+      "left": 4627,
+      "top": 2494,
+      "width": 1004,
+      "height": 768
+    },
+    {
+      "id": "文本框 226",
+      "text": "16",
+      "left": 34,
+      "top": 3588,
+      "width": 982,
+      "height": 768
+    },
+    {
+      "id": "文本框 228",
+      "text": "17",
+      "left": 1289,
+      "top": 3588,
+      "width": 754,
+      "height": 768
+    },
+    {
+      "id": "文本框 229",
+      "text": "19",
+      "left": 3457,
+      "top": 3628,
+      "width": 941,
+      "height": 768
+    },
+    {
+      "id": "文本框 230",
+      "text": "20",
+      "left": 4705,
+      "top": 3615,
+      "width": 755,
+      "height": 768
+    },
+    {
+      "id": "文本框 231",
+      "text": "21",
+      "left": 65,
+      "top": 4762,
+      "width": 981,
+      "height": 768
+    },
+    {
+      "id": "文本框 232",
+      "text": "22",
+      "left": 1424,
+      "top": 4762,
+      "width": 755,
+      "height": 768
+    },
+    {
+      "id": "文本框 233",
+      "text": "23",
+      "left": 2544,
+      "top": 4737,
+      "width": 713,
+      "height": 768
+    },
+    {
+      "id": "文本框 234",
+      "text": "24",
+      "left": 3527,
+      "top": 4762,
+      "width": 901,
+      "height": 768
+    },
+    {
+      "id": "_x0000_s1496",
+      "text": "起点1",
+      "left": 1143,
+      "top": 762,
+      "width": 4851,
+      "height": 4876
+    },
+    {
+      "id": "_x0000_s1497",
+      "text": "终点25",
+      "left": 30480,
+      "top": 29718,
+      "width": 4502,
+      "height": 4876
+    },
+    {
+      "id": "_x0000_s1498",
+      "text": "矿山9",
+      "left": 0,
+      "top": 75,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "id": "_x0000_s1499",
+      "text": "终点13",
+      "left": 0,
+      "top": 125,
+      "width": 35,
+      "height": 38
+    },
+    {
+      "id": "_x0000_s1500",
+      "text": "起点1",
+      "left": 0,
+      "top": 209,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "id": "文本框 32",
+      "text": "2",
+      "left": 2015,
+      "top": 3815,
+      "width": 732,
+      "height": 986
+    },
+    {
+      "id": "文本框 33",
+      "text": "3",
+      "left": 4777,
+      "top": 2548,
+      "width": 662,
+      "height": 986
+    },
+    {
+      "id": "文本框 34",
+      "text": "4",
+      "left": 5439,
+      "top": 4186,
+      "width": 606,
+      "height": 986
+    },
+    {
+      "id": "文本框 35",
+      "text": "5",
+      "left": 4820,
+      "top": 6603,
+      "width": 1154,
+      "height": 986
+    },
+    {
+      "id": "文本框 36",
+      "text": "6",
+      "left": 8737,
+      "top": 6260,
+      "width": 1119,
+      "height": 986
+    },
+    {
+      "id": "文本框 37",
+      "text": "7",
+      "left": 7722,
+      "top": 4054,
+      "width": 502,
+      "height": 986
+    },
+    {
+      "id": "文本框 38",
+      "text": "8",
+      "left": 5254,
+      "top": 1459,
+      "width": 869,
+      "height": 986
+    },
+    {
+      "id": "文本框 40",
+      "text": "10",
+      "left": 8224,
+      "top": 679,
+      "width": 1199,
+      "height": 1149
+    },
+    {
+      "id": "文本框 41",
+      "text": "11",
+      "left": 8418,
+      "top": 2377,
+      "width": 1337,
+      "height": 1787
+    },
+    {
+      "id": "文本框 42",
+      "text": "12",
+      "left": 9309,
+      "top": 3560,
+      "width": 1182,
+      "height": 1185
+    },
+    {
+      "id": "_x0000_s1538",
+      "text": "矿山18",
+      "left": 15582,
+      "top": 22225,
+      "width": 4852,
+      "height": 4876
+    },
+    {
+      "id": "_x0000_s1539",
+      "text": "村庄14",
+      "left": 23047,
+      "top": 16017,
+      "width": 4851,
+      "height": 4877
+    },
+    {
+      "id": "文本框 212",
+      "text": "2",
+      "left": 1512,
+      "top": 266,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 213",
+      "text": "3",
+      "left": 2646,
+      "top": 266,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 214",
+      "text": "4",
+      "left": 3780,
+      "top": 266,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 215",
+      "text": "5",
+      "left": 4915,
+      "top": 266,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 216",
+      "text": "6",
+      "left": 351,
+      "top": 1360,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 217",
+      "text": "7",
+      "left": 1474,
+      "top": 1365,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 218",
+      "text": "8",
+      "left": 2586,
+      "top": 1360,
+      "width": 377,
+      "height": 768
+    },
+    {
+      "id": "文本框 220",
+      "text": "10",
+      "left": 4764,
+      "top": 1367,
+      "width": 755,
+      "height": 768
+    },
+    {
+      "id": "文本框 221",
+      "text": "11",
+      "left": 200,
+      "top": 2523,
+      "width": 755,
+      "height": 768
+    },
+    {
+      "id": "文本框 222",
+      "text": "12",
+      "left": 1229,
+      "top": 2545,
+      "width": 981,
+      "height": 768
+    },
+    {
+      "id": "文本框 223",
+      "text": "13",
+      "left": 2454,
+      "top": 2512,
+      "width": 880,
+      "height": 768
+    },
+    {
+      "id": "文本框 224",
+      "text": "9",
+      "left": 3402,
+      "top": 1376,
+      "width": 1099,
+      "height": 768
+    },
+    {
+      "id": "文本框 225",
+      "text": "15",
+      "left": 4627,
+      "top": 2494,
+      "width": 1004,
+      "height": 768
+    },
+    {
+      "id": "文本框 226",
+      "text": "16",
+      "left": 34,
+      "top": 3588,
+      "width": 982,
+      "height": 768
+    },
+    {
+      "id": "文本框 228",
+      "text": "17",
+      "left": 1289,
+      "top": 3588,
+      "width": 754,
+      "height": 768
+    },
+    {
+      "id": "文本框 229",
+      "text": "19",
+      "left": 3457,
+      "top": 3628,
+      "width": 941,
+      "height": 768
+    },
+    {
+      "id": "文本框 230",
+      "text": "20",
+      "left": 4705,
+      "top": 3615,
+      "width": 755,
+      "height": 768
+    },
+    {
+      "id": "文本框 231",
+      "text": "21",
+      "left": 65,
+      "top": 4762,
+      "width": 981,
+      "height": 768
+    },
+    {
+      "id": "文本框 232",
+      "text": "22",
+      "left": 1424,
+      "top": 4762,
+      "width": 755,
+      "height": 768
+    },
+    {
+      "id": "文本框 233",
+      "text": "23",
+      "left": 2544,
+      "top": 4737,
+      "width": 713,
+      "height": 768
+    },
+    {
+      "id": "文本框 234",
+      "text": "24",
+      "left": 3527,
+      "top": 4762,
+      "width": 901,
+      "height": 768
+    },
+    {
+      "id": "_x0000_s1724",
+      "text": "起点1",
+      "left": 1143,
+      "top": 762,
+      "width": 4851,
+      "height": 4876
+    },
+    {
+      "id": "_x0000_s1725",
+      "text": "终点25",
+      "left": 30480,
+      "top": 29718,
+      "width": 4502,
+      "height": 4876
+    }
+  ],
+  "lines": [
+    {
+      "index": 1,
+      "id": "直接连接符 1",
+      "from": "4384,1218",
+      "to": "5465,3080",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 2,
+      "id": "直接连接符 2",
+      "from": "5454,1227",
+      "to": "6275,1484",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 3,
+      "id": "直接连接符 3",
+      "from": "4384,1484",
+      "to": "6275,3080",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 4,
+      "id": "直接连接符 4",
+      "from": "4945,2152",
+      "to": "5404,2372",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 5,
+      "id": "直接连接符 7",
+      "from": "6275,984",
+      "to": "7633,1472",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 6,
+      "id": "直接连接符 8",
+      "from": "7633,984",
+      "to": "8197,1702",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 7,
+      "id": "直接连接符 9",
+      "from": "8197,1702",
+      "to": "8197,2400",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 8,
+      "id": "直接连接符 10",
+      "from": "7528,2400",
+      "to": "8197,3204",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 9,
+      "id": "直接连接符 11",
+      "from": "5385,2372",
+      "to": "7528,3204",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 10,
+      "id": "直接连接符 14",
+      "from": "5815,2582",
+      "to": "5921,3921",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 11,
+      "id": "直接连接符 15",
+      "from": "4734,3921",
+      "to": "5806,3931",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 12,
+      "id": "直接连接符 16",
+      "from": "4371,3080",
+      "to": "4734,3921",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 13,
+      "id": "直接连接符 18",
+      "from": "5576,3204",
+      "to": "7528,4763",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 14,
+      "id": "直接连接符 19",
+      "from": "4935,3912",
+      "to": "5576,4763",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 15,
+      "id": "直接连接符 21",
+      "from": "8197,1396",
+      "to": "8484,1702",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 16,
+      "id": "直接连接符 22",
+      "from": "8197,2400",
+      "to": "10101,2793",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 17,
+      "id": "直接连接符 23",
+      "from": "8484,1396",
+      "to": "10120,1570",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 18,
+      "id": "直接连接符 24",
+      "from": "10082,1570",
+      "to": "10120,2773",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 19,
+      "id": "直接连接符 25",
+      "from": "10082,2716",
+      "to": "11632,2793",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 20,
+      "id": "直接连接符 26",
+      "from": "10101,1520",
+      "to": "10981,1570",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 21,
+      "id": "直接连接符 27",
+      "from": "10981,1520",
+      "to": "11594,2697",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 22,
+      "id": "直接连接符 29",
+      "from": "6623,3912",
+      "to": "7285,4602",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 23,
+      "id": "直接连接符 30",
+      "from": "7285,4572",
+      "to": "8657,4602",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 24,
+      "id": "直接连接符 31",
+      "from": "8657,2601",
+      "to": "9173,4543",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 25,
+      "id": "直接连接符 32",
+      "from": "5576,4763",
+      "to": "6868,5356",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 26,
+      "id": "直接连接符 33",
+      "from": "6839,4602",
+      "to": "7285,5328",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 27,
+      "id": "直接连接符 34",
+      "from": "7212,5280",
+      "to": "9805,5739",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 28,
+      "id": "直接连接符 35",
+      "from": "9805,2764",
+      "to": "10082,5280",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 29,
+      "id": "直接连接符 36",
+      "from": "6868,5356",
+      "to": "7643,6217",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 30,
+      "id": "直接连接符 37",
+      "from": "8662,4543",
+      "to": "8867,6083",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 31,
+      "id": "直接连接符 38",
+      "from": "7594,5902",
+      "to": "10264,6217",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 32,
+      "id": "直接连接符 39",
+      "from": "9794,5280",
+      "to": "10551,6284",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 33,
+      "id": "直接连接符 40",
+      "from": "10551,6275",
+      "to": "11278,6284",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 34,
+      "id": "直接连接符 41",
+      "from": "11278,3309",
+      "to": "12368,6284",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 35,
+      "id": "直接连接符 42",
+      "from": "11632,2716",
+      "to": "12359,3328",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 36,
+      "id": "直接连接符 43",
+      "from": "7594,6217",
+      "to": "8236,7432",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 37,
+      "id": "直接连接符 44",
+      "from": "8236,6016",
+      "to": "9221,7432",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 38,
+      "id": "直接连接符 45",
+      "from": "8236,7432",
+      "to": "10044,7891",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 39,
+      "id": "直接连接符 46",
+      "from": "10044,6256",
+      "to": "10513,7891",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 40,
+      "id": "直接连接符 47",
+      "from": "11077,6256",
+      "to": "11278,6964",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 41,
+      "id": "直接连接符 48",
+      "from": "10302,6964",
+      "to": "11077,7002",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 42,
+      "id": "直接连接符 49",
+      "from": "11278,6007",
+      "to": "12952,6275",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 43,
+      "id": "直接连接符 50",
+      "from": "11823,4821",
+      "to": "12952,6007",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 44,
+      "id": "直接连接符 51",
+      "from": "11077,6964",
+      "to": "11957,7088",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 45,
+      "id": "直接连接符 52",
+      "from": "11957,6026",
+      "to": "12770,7117",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 46,
+      "id": "直接连接符 53",
+      "from": "12148,6103",
+      "to": "12148,6830",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 47,
+      "id": "直接连接符 55",
+      "from": "7872,7432",
+      "to": "8236,8752",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 48,
+      "id": "直接连接符 56",
+      "from": "7872,8752",
+      "to": "10107,8808",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 49,
+      "id": "直接连接符 57",
+      "from": "9011,7609",
+      "to": "9022,8796",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 50,
+      "id": "直接连接符 58",
+      "from": "10044,7891",
+      "to": "10541,8340",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 51,
+      "id": "直接连接符 59",
+      "from": "10082,8328",
+      "to": "10518,8808",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 52,
+      "id": "直接连接符 61",
+      "from": "11946,7088",
+      "to": "11957,8579",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 53,
+      "id": "直接连接符 62",
+      "from": "10952,8579",
+      "to": "11957,9402",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 54,
+      "id": "直接连接符 64",
+      "from": "10082,8808",
+      "to": "10964,9379",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 55,
+      "id": "直接连接符 65",
+      "from": "7872,8752",
+      "to": "8371,10099",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 56,
+      "id": "直接连接符 66",
+      "from": "8896,9379",
+      "to": "10964,10070",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 57,
+      "id": "直接连接符 67",
+      "from": "8371,10050",
+      "to": "8953,10070",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 58,
+      "id": "直接连接符 68",
+      "from": "8371,10050",
+      "to": "8439,10736",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 59,
+      "id": "直接连接符 69",
+      "from": "8439,9996",
+      "to": "11112,10736",
+      "style": "position:absolute;flip:x;visibility:visible"
+    },
+    {
+      "index": 60,
+      "id": "直接连接符 70",
+      "from": "10981,9402",
+      "to": "11078,9996",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 61,
+      "id": "直接连接符 71",
+      "from": "8816,8751",
+      "to": "8953,10070",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 62,
+      "id": "直接连接符 72",
+      "from": "9619,8796",
+      "to": "9879,9733",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 63,
+      "id": "直接连接符 252",
+      "from": "1028,4249",
+      "to": "3393,5266",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 64,
+      "id": "直接连接符 253",
+      "from": "3370,3427",
+      "to": "3918,4249",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 65,
+      "id": "直接连接符 254",
+      "from": "3918,1794",
+      "to": "3929,3427",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 66,
+      "id": "直接连接符 255",
+      "from": "2833,4843",
+      "to": "3872,7299",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 67,
+      "id": "直接连接符 256",
+      "from": "3370,4238",
+      "to": "3872,4843",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 68,
+      "id": "直接连接符 257",
+      "from": "5814,5209",
+      "to": "6294,7082",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 69,
+      "id": "直接连接符 258",
+      "from": "3872,4843",
+      "to": "5825,5197",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 70,
+      "id": "直接连接符 259",
+      "from": "5814,4752",
+      "to": "6397,5197",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 71,
+      "id": "直接连接符 260",
+      "from": "6385,4352",
+      "to": "11308,4718",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 72,
+      "id": "直接连接符 261",
+      "from": "3929,1794",
+      "to": "6522,2959",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 73,
+      "id": "直接连接符 262",
+      "from": "6385,2947",
+      "to": "6511,4718",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 74,
+      "id": "直接连接符 263",
+      "from": "3929,2947",
+      "to": "6511,3427",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 75,
+      "id": "直接连接符 264",
+      "from": "6511,2045",
+      "to": "7345,2947",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 76,
+      "id": "直接连接符 265",
+      "from": "5037,1131",
+      "to": "5917,1999",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 77,
+      "id": "直接连接符 266",
+      "from": "5375,1999",
+      "to": "5905,2468",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 78,
+      "id": "直接连接符 267",
+      "from": "5677,731",
+      "to": "7002,1085",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 79,
+      "id": "直接连接符 268",
+      "from": "7002,1074",
+      "to": "7345,2068",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 80,
+      "id": "直接连接符 269",
+      "from": "7345,1714",
+      "to": "9834,2068",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 81,
+      "id": "直接连接符 270",
+      "from": "6522,2959",
+      "to": "7390,3176",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 82,
+      "id": "直接连接符 271",
+      "from": "7390,3176",
+      "to": "8634,4558",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 83,
+      "id": "直接连接符 272",
+      "from": "7390,2742",
+      "to": "9103,3164",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 84,
+      "id": "直接连接符 273",
+      "from": "9081,1805",
+      "to": "9103,2742",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 85,
+      "id": "直接连接符 274",
+      "from": "9081,2742",
+      "to": "9880,4466",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 86,
+      "id": "直接连接符 297",
+      "from": "1,2608",
+      "to": "2552,2608",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 87,
+      "id": "直接连接符 298",
+      "from": "5954,2608",
+      "to": "8505,2608",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 88,
+      "id": "直接连接符 301",
+      "from": "1,3741",
+      "to": "2552,3741",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 89,
+      "id": "直接连接符 302",
+      "from": "5954,3741",
+      "to": "8505,3741",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 90,
+      "id": "直接连接符 305",
+      "from": "2269,2608",
+      "to": "4820,2608",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 91,
+      "id": "直接连接符 306",
+      "from": "8222,2608",
+      "to": "10773,2608",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 92,
+      "id": "直接连接符 309",
+      "from": "2269,3741",
+      "to": "4820,3741",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 93,
+      "id": "直接连接符 310",
+      "from": "8222,3741",
+      "to": "10773,3741",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 94,
+      "id": "直接连接符 313",
+      "from": "4536,2607",
+      "to": "7087,2607",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 95,
+      "id": "直接连接符 314",
+      "from": "10489,2607",
+      "to": "13040,2607",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 96,
+      "id": "直接连接符 317",
+      "from": "4536,3741",
+      "to": "7087,3741",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 97,
+      "id": "直接连接符 318",
+      "from": "10489,3741",
+      "to": "13040,3741",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 98,
+      "id": "直接连接符 321",
+      "from": "2836,2057",
+      "to": "5387,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 99,
+      "id": "直接连接符 322",
+      "from": "8789,2057",
+      "to": "11340,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 100,
+      "id": "直接连接符 325",
+      "from": "567,2057",
+      "to": "3118,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 101,
+      "id": "直接连接符 326",
+      "from": "6520,2057",
+      "to": "9071,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 102,
+      "id": "直接连接符 329",
+      "from": "1701,2057",
+      "to": "4252,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 103,
+      "id": "直接连接符 330",
+      "from": "7654,2057",
+      "to": "10205,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 104,
+      "id": "直接连接符 333",
+      "from": "3969,2057",
+      "to": "6520,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 105,
+      "id": "直接连接符 334",
+      "from": "9922,2057",
+      "to": "12473,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 106,
+      "id": "直接连接符 337",
+      "from": "567,4308",
+      "to": "3118,4308",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 107,
+      "id": "直接连接符 338",
+      "from": "6520,4308",
+      "to": "9071,4308",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 108,
+      "id": "直接连接符 341",
+      "from": "1702,4308",
+      "to": "4253,4308",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 109,
+      "id": "直接连接符 342",
+      "from": "7655,4308",
+      "to": "10206,4308",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 110,
+      "id": "直接连接符 345",
+      "from": "2836,4309",
+      "to": "5387,4309",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 111,
+      "id": "直接连接符 346",
+      "from": "8789,4309",
+      "to": "11340,4309",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 112,
+      "id": "直接连接符 349",
+      "from": "3969,4309",
+      "to": "6520,4309",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 113,
+      "id": "直接连接符 350",
+      "from": "9922,4309",
+      "to": "12473,4309",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 114,
+      "id": "直接连接符 353",
+      "from": "1134,2608",
+      "to": "3685,2608",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 115,
+      "id": "直接连接符 354",
+      "from": "7087,2608",
+      "to": "9638,2608",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 116,
+      "id": "直接连接符 357",
+      "from": "1135,3742",
+      "to": "3686,3742",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 117,
+      "id": "直接连接符 358",
+      "from": "7088,3742",
+      "to": "9639,3742",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 118,
+      "id": "直接连接符 361",
+      "from": "3402,2624",
+      "to": "5953,2624",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 119,
+      "id": "直接连接符 362",
+      "from": "9355,2624",
+      "to": "11906,2624",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 120,
+      "id": "直接连接符 365",
+      "from": "3403,3742",
+      "to": "5954,3742",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 121,
+      "id": "直接连接符 366",
+      "from": "9356,3742",
+      "to": "11907,3742",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 122,
+      "id": "直接连接符 369",
+      "from": "568,3174",
+      "to": "3119,3174",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 123,
+      "id": "直接连接符 370",
+      "from": "6521,3174",
+      "to": "9072,3174",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 124,
+      "id": "直接连接符 373",
+      "from": "1701,3174",
+      "to": "4252,3174",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 125,
+      "id": "直接连接符 374",
+      "from": "7654,3174",
+      "to": "10205,3174",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 126,
+      "id": "直接连接符 377",
+      "from": "2836,3174",
+      "to": "5387,3174",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 127,
+      "id": "直接连接符 378",
+      "from": "8789,3174",
+      "to": "11340,3174",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 128,
+      "id": "直接连接符 381",
+      "from": "3970,3176",
+      "to": "6521,3176",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 129,
+      "id": "直接连接符 382",
+      "from": "9923,3176",
+      "to": "12474,3176",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 130,
+      "id": "直接连接符 385",
+      "from": "3969,6576",
+      "to": "6520,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 131,
+      "id": "直接连接符 386",
+      "from": "9922,6576",
+      "to": "12473,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 132,
+      "id": "直接连接符 389",
+      "from": "1703,6576",
+      "to": "4254,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 133,
+      "id": "直接连接符 390",
+      "from": "7656,6576",
+      "to": "10207,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 134,
+      "id": "直接连接符 393",
+      "from": "567,6576",
+      "to": "3118,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 135,
+      "id": "直接连接符 394",
+      "from": "6520,6576",
+      "to": "9071,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 136,
+      "id": "直接连接符 397",
+      "from": "4536,6009",
+      "to": "7087,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 137,
+      "id": "直接连接符 398",
+      "from": "10489,6009",
+      "to": "13040,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 138,
+      "id": "直接连接符 401",
+      "from": "3403,6009",
+      "to": "5954,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 139,
+      "id": "直接连接符 402",
+      "from": "9356,6009",
+      "to": "11907,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 140,
+      "id": "直接连接符 405",
+      "from": "1134,4875",
+      "to": "3685,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 141,
+      "id": "直接连接符 406",
+      "from": "7087,4875",
+      "to": "9638,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 142,
+      "id": "直接连接符 409",
+      "from": "2837,6576",
+      "to": "5388,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 143,
+      "id": "直接连接符 410",
+      "from": "8790,6576",
+      "to": "11341,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 144,
+      "id": "直接连接符 413",
+      "from": "1,4875",
+      "to": "2552,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 145,
+      "id": "直接连接符 414",
+      "from": "5954,4875",
+      "to": "8505,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 146,
+      "id": "直接连接符 417",
+      "from": "0,6009",
+      "to": "2551,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 147,
+      "id": "直接连接符 418",
+      "from": "5953,6009",
+      "to": "8504,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 148,
+      "id": "直接连接符 421",
+      "from": "1135,6009",
+      "to": "3686,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 149,
+      "id": "直接连接符 422",
+      "from": "7088,6009",
+      "to": "9639,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 150,
+      "id": "直接连接符 425",
+      "from": "3402,4875",
+      "to": "5953,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 151,
+      "id": "直接连接符 426",
+      "from": "9355,4875",
+      "to": "11906,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 152,
+      "id": "直接连接符 429",
+      "from": "569,5443",
+      "to": "3120,5443",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 153,
+      "id": "直接连接符 430",
+      "from": "6522,5443",
+      "to": "9073,5443",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 154,
+      "id": "直接连接符 433",
+      "from": "1703,5442",
+      "to": "4254,5442",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 155,
+      "id": "直接连接符 434",
+      "from": "7656,5442",
+      "to": "10207,5442",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 156,
+      "id": "直接连接符 437",
+      "from": "2837,5442",
+      "to": "5388,5442",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 157,
+      "id": "直接连接符 438",
+      "from": "8790,5442",
+      "to": "11341,5442",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 158,
+      "id": "直接连接符 441",
+      "from": "3969,5442",
+      "to": "6520,5442",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 159,
+      "id": "直接连接符 442",
+      "from": "9922,5442",
+      "to": "12473,5442",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 160,
+      "id": "直接连接符 445",
+      "from": "2268,4875",
+      "to": "4819,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 161,
+      "id": "直接连接符 446",
+      "from": "8221,4875",
+      "to": "10772,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 162,
+      "id": "直接连接符 449",
+      "from": "2270,6009",
+      "to": "4821,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 163,
+      "id": "直接连接符 450",
+      "from": "8223,6009",
+      "to": "10774,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 164,
+      "id": "直接连接符 453",
+      "from": "4536,4875",
+      "to": "7087,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 165,
+      "id": "直接连接符 454",
+      "from": "10489,4875",
+      "to": "13040,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 166,
+      "id": "直接连接符 524",
+      "from": "1028,4249",
+      "to": "3393,5266",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 167,
+      "id": "直接连接符 525",
+      "from": "3370,3427",
+      "to": "3918,4249",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 168,
+      "id": "直接连接符 526",
+      "from": "3918,1794",
+      "to": "3929,3427",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 169,
+      "id": "直接连接符 527",
+      "from": "2833,4843",
+      "to": "3872,7299",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 170,
+      "id": "直接连接符 528",
+      "from": "3370,4238",
+      "to": "3872,4843",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 171,
+      "id": "直接连接符 529",
+      "from": "5814,5209",
+      "to": "6294,7082",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 172,
+      "id": "直接连接符 530",
+      "from": "3872,4843",
+      "to": "5825,5197",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 173,
+      "id": "直接连接符 531",
+      "from": "5814,4752",
+      "to": "6397,5197",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 174,
+      "id": "直接连接符 532",
+      "from": "6385,4352",
+      "to": "11308,4718",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 175,
+      "id": "直接连接符 533",
+      "from": "3929,1794",
+      "to": "6522,2959",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 176,
+      "id": "直接连接符 534",
+      "from": "6385,2947",
+      "to": "6511,4718",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 177,
+      "id": "直接连接符 535",
+      "from": "3929,2947",
+      "to": "6511,3427",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 178,
+      "id": "直接连接符 536",
+      "from": "6511,2045",
+      "to": "7345,2947",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 179,
+      "id": "直接连接符 537",
+      "from": "5037,1131",
+      "to": "5917,1999",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 180,
+      "id": "直接连接符 538",
+      "from": "5375,1999",
+      "to": "5905,2468",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 181,
+      "id": "直接连接符 539",
+      "from": "5677,731",
+      "to": "7002,1085",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 182,
+      "id": "直接连接符 540",
+      "from": "7002,1074",
+      "to": "7345,2068",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 183,
+      "id": "直接连接符 541",
+      "from": "7345,1714",
+      "to": "9834,2068",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 184,
+      "id": "直接连接符 542",
+      "from": "6522,2959",
+      "to": "7390,3176",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 185,
+      "id": "直接连接符 543",
+      "from": "7390,3176",
+      "to": "8634,4558",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 186,
+      "id": "直接连接符 544",
+      "from": "7390,2742",
+      "to": "9103,3164",
+      "style": "position:absolute;flip:y;visibility:visible"
+    },
+    {
+      "index": 187,
+      "id": "直接连接符 545",
+      "from": "9081,1805",
+      "to": "9103,2742",
+      "style": "position:absolute;flip:x y;visibility:visible"
+    },
+    {
+      "index": 188,
+      "id": "直接连接符 546",
+      "from": "9081,2742",
+      "to": "9880,4466",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 189,
+      "id": "直接连接符 567",
+      "from": "1,2608",
+      "to": "2552,2608",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 190,
+      "id": "直接连接符 568",
+      "from": "5954,2608",
+      "to": "8505,2608",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 191,
+      "id": "直接连接符 571",
+      "from": "1,3741",
+      "to": "2552,3741",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 192,
+      "id": "直接连接符 572",
+      "from": "5954,3741",
+      "to": "8505,3741",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 193,
+      "id": "直接连接符 575",
+      "from": "2269,2608",
+      "to": "4820,2608",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 194,
+      "id": "直接连接符 248",
+      "from": "8222,2608",
+      "to": "10773,2608",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 195,
+      "id": "直接连接符 287",
+      "from": "2269,3741",
+      "to": "4820,3741",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 196,
+      "id": "直接连接符 289",
+      "from": "8222,3741",
+      "to": "10773,3741",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 197,
+      "id": "直接连接符 578",
+      "from": "4536,2607",
+      "to": "7087,2607",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 198,
+      "id": "直接连接符 579",
+      "from": "10489,2607",
+      "to": "13040,2607",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 199,
+      "id": "直接连接符 582",
+      "from": "4536,3741",
+      "to": "7087,3741",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 200,
+      "id": "直接连接符 583",
+      "from": "10489,3741",
+      "to": "13040,3741",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 201,
+      "id": "直接连接符 586",
+      "from": "2836,2057",
+      "to": "5387,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 202,
+      "id": "直接连接符 587",
+      "from": "8789,2057",
+      "to": "11340,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 203,
+      "id": "直接连接符 590",
+      "from": "567,2057",
+      "to": "3118,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 204,
+      "id": "直接连接符 591",
+      "from": "6520,2057",
+      "to": "9071,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 205,
+      "id": "直接连接符 594",
+      "from": "1701,2057",
+      "to": "4252,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 206,
+      "id": "直接连接符 595",
+      "from": "7654,2057",
+      "to": "10205,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 207,
+      "id": "直接连接符 598",
+      "from": "3969,2057",
+      "to": "6520,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 208,
+      "id": "直接连接符 599",
+      "from": "9922,2057",
+      "to": "12473,2057",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 209,
+      "id": "直接连接符 602",
+      "from": "567,4308",
+      "to": "3118,4308",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 210,
+      "id": "直接连接符 603",
+      "from": "6520,4308",
+      "to": "9071,4308",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 211,
+      "id": "直接连接符 606",
+      "from": "1702,4308",
+      "to": "4253,4308",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 212,
+      "id": "直接连接符 607",
+      "from": "7655,4308",
+      "to": "10206,4308",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 213,
+      "id": "直接连接符 610",
+      "from": "2836,4309",
+      "to": "5387,4309",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 214,
+      "id": "直接连接符 611",
+      "from": "8789,4309",
+      "to": "11340,4309",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 215,
+      "id": "直接连接符 614",
+      "from": "3969,4309",
+      "to": "6520,4309",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 216,
+      "id": "直接连接符 615",
+      "from": "9922,4309",
+      "to": "12473,4309",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 217,
+      "id": "直接连接符 618",
+      "from": "1134,2608",
+      "to": "3685,2608",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 218,
+      "id": "直接连接符 619",
+      "from": "7087,2608",
+      "to": "9638,2608",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 219,
+      "id": "直接连接符 622",
+      "from": "1135,3742",
+      "to": "3686,3742",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 220,
+      "id": "直接连接符 623",
+      "from": "7088,3742",
+      "to": "9639,3742",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 221,
+      "id": "直接连接符 626",
+      "from": "3402,2624",
+      "to": "5953,2624",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 222,
+      "id": "直接连接符 627",
+      "from": "9355,2624",
+      "to": "11906,2624",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 223,
+      "id": "直接连接符 630",
+      "from": "3403,3742",
+      "to": "5954,3742",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 224,
+      "id": "直接连接符 631",
+      "from": "9356,3742",
+      "to": "11907,3742",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 225,
+      "id": "直接连接符 634",
+      "from": "568,3174",
+      "to": "3119,3174",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 226,
+      "id": "直接连接符 635",
+      "from": "6521,3174",
+      "to": "9072,3174",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 227,
+      "id": "直接连接符 638",
+      "from": "1701,3174",
+      "to": "4252,3174",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 228,
+      "id": "直接连接符 639",
+      "from": "7654,3174",
+      "to": "10205,3174",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 229,
+      "id": "直接连接符 642",
+      "from": "2836,3174",
+      "to": "5387,3174",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 230,
+      "id": "直接连接符 643",
+      "from": "8789,3174",
+      "to": "11340,3174",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 231,
+      "id": "直接连接符 646",
+      "from": "3970,3176",
+      "to": "6521,3176",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 232,
+      "id": "直接连接符 647",
+      "from": "9923,3176",
+      "to": "12474,3176",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 233,
+      "id": "直接连接符 650",
+      "from": "3969,6576",
+      "to": "6520,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 234,
+      "id": "直接连接符 651",
+      "from": "9922,6576",
+      "to": "12473,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 235,
+      "id": "直接连接符 654",
+      "from": "1703,6576",
+      "to": "4254,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 236,
+      "id": "直接连接符 655",
+      "from": "7656,6576",
+      "to": "10207,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 237,
+      "id": "直接连接符 658",
+      "from": "567,6576",
+      "to": "3118,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 238,
+      "id": "直接连接符 659",
+      "from": "6520,6576",
+      "to": "9071,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 239,
+      "id": "直接连接符 662",
+      "from": "4536,6009",
+      "to": "7087,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 240,
+      "id": "直接连接符 663",
+      "from": "10489,6009",
+      "to": "13040,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 241,
+      "id": "直接连接符 666",
+      "from": "3403,6009",
+      "to": "5954,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 242,
+      "id": "直接连接符 667",
+      "from": "9356,6009",
+      "to": "11907,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 243,
+      "id": "直接连接符 670",
+      "from": "1134,4875",
+      "to": "3685,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 244,
+      "id": "直接连接符 671",
+      "from": "7087,4875",
+      "to": "9638,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 245,
+      "id": "直接连接符 674",
+      "from": "2837,6576",
+      "to": "5388,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 246,
+      "id": "直接连接符 675",
+      "from": "8790,6576",
+      "to": "11341,6576",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 247,
+      "id": "直接连接符 678",
+      "from": "1,4875",
+      "to": "2552,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 248,
+      "id": "直接连接符 679",
+      "from": "5954,4875",
+      "to": "8505,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 249,
+      "id": "直接连接符 682",
+      "from": "0,6009",
+      "to": "2551,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 250,
+      "id": "直接连接符 683",
+      "from": "5953,6009",
+      "to": "8504,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 251,
+      "id": "直接连接符 686",
+      "from": "1135,6009",
+      "to": "3686,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 252,
+      "id": "直接连接符 687",
+      "from": "7088,6009",
+      "to": "9639,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 253,
+      "id": "直接连接符 690",
+      "from": "3402,4875",
+      "to": "5953,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 254,
+      "id": "直接连接符 691",
+      "from": "9355,4875",
+      "to": "11906,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 255,
+      "id": "直接连接符 694",
+      "from": "569,5443",
+      "to": "3120,5443",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 256,
+      "id": "直接连接符 695",
+      "from": "6522,5443",
+      "to": "9073,5443",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 257,
+      "id": "直接连接符 698",
+      "from": "1703,5442",
+      "to": "4254,5442",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 258,
+      "id": "直接连接符 699",
+      "from": "7656,5442",
+      "to": "10207,5442",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 259,
+      "id": "直接连接符 702",
+      "from": "2837,5442",
+      "to": "5388,5442",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 260,
+      "id": "直接连接符 703",
+      "from": "8790,5442",
+      "to": "11341,5442",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 261,
+      "id": "直接连接符 706",
+      "from": "3969,5442",
+      "to": "6520,5442",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 262,
+      "id": "直接连接符 707",
+      "from": "9922,5442",
+      "to": "12473,5442",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 263,
+      "id": "直接连接符 710",
+      "from": "2268,4875",
+      "to": "4819,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 264,
+      "id": "直接连接符 711",
+      "from": "8221,4875",
+      "to": "10772,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 265,
+      "id": "直接连接符 714",
+      "from": "2270,6009",
+      "to": "4821,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 266,
+      "id": "直接连接符 715",
+      "from": "8223,6009",
+      "to": "10774,6009",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 267,
+      "id": "直接连接符 718",
+      "from": "4536,4875",
+      "to": "7087,4875",
+      "style": "position:absolute;visibility:visible"
+    },
+    {
+      "index": 268,
+      "id": "直接连接符 719",
+      "from": "10489,4875",
+      "to": "13040,4875",
+      "style": "position:absolute;visibility:visible"
+    }
+  ],
+  "review_notes": [
+    "Maps and formulas are stored as VML/WMF/OLE objects.",
+    "Use this summary to create a manually reviewed adjacency table before final solve."
+  ]
+}

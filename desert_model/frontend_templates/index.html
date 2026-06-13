@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desert Crossing Visual Analytics</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <section class="kpi-strip" id="kpiStrip" aria-label="key metrics"></section>
+      <div class="header-controls">
+        <label class="select-label" for="caseSelect">Case</label>
+        <select id="caseSelect"></select>
+        <div class="status-chip" id="globalStatus">--</div>
+      </div>
+    </header>
+
+    <main class="paper-workbench">
+      <aside class="panel query-panel" aria-label="filters and diagnostics">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Filters</p>
+            <h2>Query Panel</h2>
+          </div>
+        </div>
+        <div class="panel-body query-body">
+          <section class="control-block">
+            <div class="control-label">Action Filter</div>
+            <div class="segmented-control" id="labelFilterPanel"></div>
+          </section>
+          <section class="control-block">
+            <div class="control-label">Reliability Filter</div>
+            <div class="segmented-control" id="qualityFilterPanel"></div>
+          </section>
+          <section class="control-block">
+            <div class="control-label">Legend</div>
+            <div class="semantic-legend" id="semanticLegend"></div>
+          </section>
+          <div class="diagnostics-collapse">
+            <button class="diagnostics-header" id="diagnosticsToggle" type="button">
+              <h4>Diagnostics</h4>
+              <span class="expand-icon" id="diagnosticsIcon">+</span>
+            </button>
+            <div class="diagnostics-body diagnostics-1">
+              <section class="control-block">
+                <div class="control-label">Normalized Data Contract</div>
+                <div class="schema-panel" id="fieldSchemaPanel"></div>
+              </section>
+              <section class="control-block">
+                <div class="control-label">Template / Status Index</div>
+                <div class="table-scroll" id="templateTable"></div>
+              </section>
+              <section class="control-block">
+                <div class="control-label">VAID-style View Index</div>
+                <div class="view-index" id="viewIndex"></div>
+              </section>
+              <section class="control-block">
+                <div class="control-label">Local Sources / Missing Modalities</div>
+                <div class="source-grid compact-source-grid" id="sourcePanel"></div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="workspace-stack" aria-label="labeling and comparison workspace">
+        <article class="panel workspace-panel">
+          <div class="panel-header">
+            <div>
+              <p class="panel-kicker">B / Labeling View</p>
+              <h2 id="replayTitle">Event Replay</h2>
+            </div>
+            <div class="toolbar">
+              <div class="view-switch replay-switch" id="replayViewSwitch" aria-label="replay view mode"></div>
+              <button class="icon-button" id="playButton" type="button" title="Replay timeline">Play</button>
+              <span class="time-chip" id="currentTimeChip">Day --</span>
+              <span class="status-chip neutral" id="sequenceStatus">--</span>
+            </div>
+          </div>
+          <div class="panel-body workspace-body">
+            <div class="chart-frame replay-frame">
+              <svg class="replay-svg active" id="sequenceMatrixChart" role="img" aria-label="sequence matrix chart"></svg>
+              <svg class="replay-svg" id="timelineChart" role="img" aria-label="linked timeline chart"></svg>
+              <svg class="replay-svg" id="comparisonFlowChart" role="img" aria-label="decision flow chart"></svg>
+            </div>
+            <div class="timeline-controls">
+              <input id="timeSlider" type="range" min="0" max="0" step="1" value="0">
+            </div>
+          </div>
+        </article>
+
+        <div class="split-analysis route-only">
+          <article class="panel spatial-panel">
+            <div class="panel-header">
+              <div>
+                <p class="panel-kicker">Primary Analysis</p>
+                <h2>Spatial Route</h2>
+              </div>
+              <span class="status-chip neutral" id="spatialStatus">--</span>
+            </div>
+            <div class="panel-body spatial-body">
+              <div class="chart-frame spatial-frame">
+                <svg id="spatialChart" role="img" aria-label="spatial route map"></svg>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <aside class="info-stack" aria-label="evidence and quality panel">
+        <article class="panel evidence-panel">
+          <div class="panel-header">
+            <div>
+              <p class="panel-kicker">Primary View</p>
+              <h2>Selected Event</h2>
+            </div>
+            <span class="status-chip neutral" id="semanticStatus">--</span>
+          </div>
+          <div class="panel-body evidence-body">
+            <div class="semantic-list" id="semanticList"></div>
+            <div class="detail-table" id="detailPanel"></div>
+          </div>
+        </article>
+
+        <article class="panel quality-panel">
+          <div class="panel-header compact">
+            <div>
+              <p class="panel-kicker">Quality</p>
+              <h2>Trust Signals</h2>
+            </div>
+            <span class="status-chip neutral" id="qualityStatus">--</span>
+          </div>
+          <div class="panel-body quality-body">
+            <div class="quality-list" id="qualityList"></div>
+            <div class="quality-explain" id="qualityExplain"></div>
+          </div>
+        </article>
+      </aside>
+    </main>
+
+  </div>
+
+  <div class="tooltip" id="tooltip"></div>
+  <script src="vendor/d3.v7.min.js"></script>
+  <script src="dashboard-data.js"></script>
+  <script src="data-adapter.js"></script>
+  <script src="interaction-state.js"></script>
+  <script src="charts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
