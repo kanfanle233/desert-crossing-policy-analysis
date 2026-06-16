@@ -2,14 +2,16 @@
   "level_id": 2,
   "objective_value": 12317.5,
   "feasible": true,
-  "status": "optimal_search",
-  "message": "best reviewed deterministic trace found",
+  "status": "current_dp",
+  "message": "official deterministic DP trace reused for benchmark",
   "metadata": {
     "solver_engine": "tuple_exact_v2",
     "final_terminal_value": 12317.5,
     "visited_states": 715763,
     "max_states_per_bucket": 800,
-    "purchase_step": 25
+    "purchase_step": 25,
+    "source": "cached official solution trace",
+    "source_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/solutions/level_2_trace.json"
   },
   "rows": [
     {

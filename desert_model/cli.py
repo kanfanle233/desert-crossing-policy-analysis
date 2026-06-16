@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 from typing import Dict
 
+from .algorithm_runner import run_benchmark
 from .analyze import write_analysis_report
 from .baseline import baseline_shortest_path_trace
 from .config import DEFAULT_CONFIG_PATH, default_output_root, load_level_map, select_levels
@@ -109,7 +110,39 @@ def cmd_visualize(args: argparse.Namespace) -> int:
     print("Frontend: %s" % payload["frontend"])
     for figure in payload["figures"]:
         print("Figure: %s" % figure)
+    for item in payload.get("figure_errors", []):
+        print("Figure warning: %s -> %s" % (item["figure"], item["error"]))
     return 0
+
+
+def cmd_benchmark(args: argparse.Namespace) -> int:
+    level_map = load_level_map(args.config)
+    levels = select_levels(level_map, args.levels)
+    algorithms = None
+    if args.algorithms:
+        algorithms = tuple(part.strip() for part in args.algorithms.split(",") if part.strip())
+    results = run_benchmark(
+        levels,
+        args.output / "experiments",
+        algorithms=algorithms,
+        seed=args.seed,
+        budget=args.budget,
+        scenario_limit=args.scenario_limit,
+    )
+    print("Algorithm benchmark: %s" % (args.output / "experiments" / "algorithm_benchmark.csv"))
+    print("Algorithm benchmark JSON: %s" % (args.output / "experiments" / "algorithm_benchmark.json"))
+    print("Algorithm comparison report: %s" % (args.output / "report_tables" / "algorithm_comparison.md"))
+    failed = 0
+    for result in results:
+        objective = "" if result.objective_value is None else "%.2f" % result.objective_value
+        marker = "ok" if result.feasible else "not-feasible"
+        print(
+            "Level %s %-20s %s objective=%s runtime=%.4fs"
+            % (result.level_id, result.algorithm, marker, objective, result.runtime_sec)
+        )
+        if not result.feasible and result.algorithm in ("current_dp", "astar_dp", "rcsp_label"):
+            failed = 1
+    return failed
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -149,6 +182,15 @@ def build_parser() -> argparse.ArgumentParser:
     visualize = subparsers.add_parser("visualize", help="Generate figures and static frontend dashboard")
     _add_common_args(visualize)
     visualize.set_defaults(func=cmd_visualize)
+
+    benchmark = subparsers.add_parser("benchmark", help="Run advanced algorithm comparison experiments")
+    benchmark.add_argument("--levels", default="all")
+    benchmark.add_argument("--algorithms", default="", help="Comma-separated algorithm override")
+    benchmark.add_argument("--seed", type=int, default=2026)
+    benchmark.add_argument("--budget", type=int, default=12, help="Heuristic candidate budget")
+    benchmark.add_argument("--scenario-limit", type=int, default=12, help="Unknown-weather scenario cap")
+    _add_common_args(benchmark)
+    benchmark.set_defaults(func=cmd_benchmark)
 
     return parser
 

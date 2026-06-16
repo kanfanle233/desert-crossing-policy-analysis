@@ -1,6 +1,7 @@
 """Backend models and solvers for the 2020 CUMCM B desert crossing problem."""
 
 __all__ = [
+    "algorithm_runner",
     "baseline",
     "config",
     "maps",

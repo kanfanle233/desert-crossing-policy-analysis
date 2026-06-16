@@ -201,6 +201,22 @@
         explanation: trace.message || "No solver message.",
         time: stats.arrivalDay
       });
+      const metadata = trace.metadata || {};
+      if (metadata.solver_engine || metadata.visited_states) {
+        items.push({
+          id: `${level.level_id}:solver-engine`,
+          label: "Solver engine",
+          metric: metadata.solver_engine || "recorded",
+          value: asNumber(metadata.visited_states, 1),
+          status: "ok",
+          explanation: [
+            metadata.solver_engine ? `engine=${metadata.solver_engine}` : "",
+            metadata.visited_states ? `visited_states=${metadata.visited_states}` : "",
+            metadata.purchase_step ? `purchase_step=${metadata.purchase_step}` : ""
+          ].filter(Boolean).join("; ") || "Solver metadata is recorded in the trace.",
+          time: stats.arrivalDay
+        });
+      }
     }
     if (events.length) {
       items.push({

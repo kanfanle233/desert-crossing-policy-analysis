@@ -81,7 +81,7 @@ class LevelConfig:
         return tuple(sorted(nodes))
 
 
-@dataclass(frozen=True)
+@dataclass(frozen=True, slots=True)
 class PlayerState:
     day: int
     node: int
@@ -97,7 +97,7 @@ class PlayerState:
         return PlayerState(day, self.node, self.cash, self.water, self.food, self.finished)
 
 
-@dataclass(frozen=True)
+@dataclass(frozen=True, slots=True)
 class Action:
     kind: str
     from_node: int
@@ -111,7 +111,7 @@ class Action:
     note: str = ""
 
 
-@dataclass
+@dataclass(slots=True)
 class TraceStep:
     day: int
     state: PlayerState

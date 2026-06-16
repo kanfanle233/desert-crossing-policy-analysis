@@ -104,11 +104,42 @@ def prune_dominated_states(states: Iterable[PlayerState]) -> list[PlayerState]:
         key = (state.day, state.node, state.cash, state.water, state.food, state.finished)
         unique[key] = state
     ordered = list(unique.values())
+    if not ordered:
+        return []
+    if len({(state.day, state.node, state.finished) for state in ordered}) > 1:
+        survivors: list[PlayerState] = []
+        for state in sorted(ordered, key=lambda s: (s.day, s.node, s.finished, s.cash, s.water, s.food), reverse=True):
+            if any(dominates(existing, state) for existing in survivors):
+                continue
+            survivors.append(state)
+        return survivors
+
+    max_water = max(state.water for state in ordered)
+    tree = [-1] * (max_water + 3)
+
+    def query(idx: int) -> int:
+        best = -1
+        while idx > 0:
+            if tree[idx] > best:
+                best = tree[idx]
+            idx -= idx & -idx
+        return best
+
+    def update(idx: int, value: int) -> None:
+        while idx < len(tree):
+            if value > tree[idx]:
+                tree[idx] = value
+            idx += idx & -idx
+
     survivors: list[PlayerState] = []
     for state in sorted(ordered, key=lambda s: (s.cash, s.water, s.food), reverse=True):
-        if any(dominates(existing, state) for existing in survivors):
+        # Fenwick prefix max over reversed water index answers:
+        # among accepted states with water >= current water, what is max food?
+        reversed_water = max_water - state.water + 1
+        if query(reversed_water) >= state.food:
             continue
         survivors.append(state)
+        update(reversed_water, state.food)
     return survivors
 
 

@@ -5,6 +5,28 @@
     "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/figures/level_2_path.png",
     "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/figures/level_2_resources.png"
   ],
+  "figure_errors": [
+    {
+      "figure": "level_1_resources",
+      "path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/figures/level_1_resources.png",
+      "error": "ImportError: cannot import name 'Image' from 'PIL' (unknown location)"
+    },
+    {
+      "figure": "level_1_path",
+      "path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/figures/level_1_path.png",
+      "error": "ImportError: cannot import name 'Image' from 'PIL' (unknown location)"
+    },
+    {
+      "figure": "level_2_resources",
+      "path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/figures/level_2_resources.png",
+      "error": "ImportError: cannot import name 'Image' from 'PIL' (unknown location)"
+    },
+    {
+      "figure": "level_2_path",
+      "path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/figures/level_2_path.png",
+      "error": "ImportError: cannot import name 'Image' from 'PIL' (unknown location)"
+    }
+  ],
   "frontend": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/frontend/index.html",
   "frontend_data": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/frontend/dashboard-data.js",
   "frontend_vendor": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/frontend/vendor/d3.v7.min.js"

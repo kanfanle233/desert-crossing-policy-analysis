@@ -13,6 +13,20 @@ from .models import SolutionTrace
 RESULT_TEMPLATE = Path("Result.xlsx")
 
 
+def _state_payload(trace: SolutionTrace) -> Dict[str, object] | None:
+    state = trace.final_state()
+    if state is None:
+        return None
+    return {
+        "day": state.day,
+        "node": state.node,
+        "cash": state.cash,
+        "water": state.water,
+        "food": state.food,
+        "finished": state.finished,
+    }
+
+
 def write_result_workbook(
     template_path: Path,
     output_path: Path,
@@ -58,7 +72,7 @@ def write_solve_status(path: Path, traces: Mapping[int, SolutionTrace]) -> None:
             "status": trace.status,
             "message": trace.message,
             "objective_value": trace.objective_value if math.isfinite(trace.objective_value) else None,
-            "final_state": trace.final_state().__dict__ if trace.final_state() else None,
+            "final_state": _state_payload(trace),
             "metadata": trace.metadata,
         }
         for level_id, trace in sorted(traces.items())

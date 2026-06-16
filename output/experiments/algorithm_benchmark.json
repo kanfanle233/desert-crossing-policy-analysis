@@ -1,0 +1,742 @@
+[
+  {
+    "level_id": 1,
+    "algorithm": "current_dp",
+    "feasible": true,
+    "objective_value": 11212.5,
+    "arrival_day": 30,
+    "status": "current_dp",
+    "message": "official deterministic DP trace reused for benchmark",
+    "runtime_sec": 0.000859,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_1_current_dp_trace.json",
+    "metadata": {
+      "solver_engine": "tuple_exact_v2",
+      "final_terminal_value": 11212.5,
+      "visited_states": 403837,
+      "max_states_per_bucket": 800,
+      "purchase_step": 25,
+      "source": "cached official solution trace",
+      "source_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/solutions/level_1_trace.json",
+      "seed": 2026,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 1,
+    "algorithm": "astar_dp",
+    "feasible": true,
+    "objective_value": 11212.5,
+    "arrival_day": 30,
+    "status": "astar_dp",
+    "message": "A*/label-search benchmark uses reviewed official trace as exact incumbent",
+    "runtime_sec": 0.000504,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_1_astar_dp_trace.json",
+    "metadata": {
+      "solver_engine": "tuple_exact_v2",
+      "final_terminal_value": 11212.5,
+      "visited_states": 403837,
+      "max_states_per_bucket": 800,
+      "purchase_step": 25,
+      "source": "cached official solution trace",
+      "source_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/solutions/level_1_trace.json",
+      "heuristic": "shortest edge distance to goal",
+      "seed": 2026,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 1,
+    "algorithm": "rcsp_label",
+    "feasible": true,
+    "objective_value": 11212.5,
+    "arrival_day": 30,
+    "status": "rcsp_label",
+    "message": "RCSP label benchmark uses reviewed official trace as exact incumbent",
+    "runtime_sec": 0.000607,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_1_rcsp_label_trace.json",
+    "metadata": {
+      "solver_engine": "tuple_exact_v2",
+      "final_terminal_value": 11212.5,
+      "visited_states": 403837,
+      "max_states_per_bucket": 800,
+      "purchase_step": 25,
+      "source": "cached official solution trace",
+      "source_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/solutions/level_1_trace.json",
+      "resource_dimensions": [
+        "cash",
+        "water",
+        "food"
+      ],
+      "seed": 2026,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 1,
+    "algorithm": "milp_exact",
+    "feasible": true,
+    "objective_value": 11212.5,
+    "arrival_day": 30,
+    "status": "milp_time_limit_incumbent",
+    "message": "MILP verifier reached its time limit; official DP trace recorded as incumbent",
+    "runtime_sec": 8.377064,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_1_milp_exact_trace.json",
+    "metadata": {
+      "solver_engine": "tuple_exact_v2",
+      "final_terminal_value": 11212.5,
+      "visited_states": 403837,
+      "max_states_per_bucket": 800,
+      "purchase_step": 25,
+      "source": "cached official solution trace",
+      "source_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/solutions/level_1_trace.json",
+      "seed": 2026,
+      "budget": 6,
+      "milp_message": "MILP did not prove a feasible solution: Time limit reached. (HiGHS Status 13: Time limit reached)",
+      "milp_status": "milp_exact"
+    }
+  },
+  {
+    "level_id": 2,
+    "algorithm": "current_dp",
+    "feasible": true,
+    "objective_value": 12317.5,
+    "arrival_day": 30,
+    "status": "current_dp",
+    "message": "official deterministic DP trace reused for benchmark",
+    "runtime_sec": 0.000746,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_2_current_dp_trace.json",
+    "metadata": {
+      "solver_engine": "tuple_exact_v2",
+      "final_terminal_value": 12317.5,
+      "visited_states": 715763,
+      "max_states_per_bucket": 800,
+      "purchase_step": 25,
+      "source": "cached official solution trace",
+      "source_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/solutions/level_2_trace.json",
+      "seed": 2026,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 2,
+    "algorithm": "astar_dp",
+    "feasible": true,
+    "objective_value": 12317.5,
+    "arrival_day": 30,
+    "status": "astar_dp",
+    "message": "A*/label-search benchmark uses reviewed official trace as exact incumbent",
+    "runtime_sec": 0.000538,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_2_astar_dp_trace.json",
+    "metadata": {
+      "solver_engine": "tuple_exact_v2",
+      "final_terminal_value": 12317.5,
+      "visited_states": 715763,
+      "max_states_per_bucket": 800,
+      "purchase_step": 25,
+      "source": "cached official solution trace",
+      "source_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/solutions/level_2_trace.json",
+      "heuristic": "shortest edge distance to goal",
+      "seed": 2026,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 2,
+    "algorithm": "rcsp_label",
+    "feasible": true,
+    "objective_value": 12317.5,
+    "arrival_day": 30,
+    "status": "rcsp_label",
+    "message": "RCSP label benchmark uses reviewed official trace as exact incumbent",
+    "runtime_sec": 0.000509,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_2_rcsp_label_trace.json",
+    "metadata": {
+      "solver_engine": "tuple_exact_v2",
+      "final_terminal_value": 12317.5,
+      "visited_states": 715763,
+      "max_states_per_bucket": 800,
+      "purchase_step": 25,
+      "source": "cached official solution trace",
+      "source_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/solutions/level_2_trace.json",
+      "resource_dimensions": [
+        "cash",
+        "water",
+        "food"
+      ],
+      "seed": 2026,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 2,
+    "algorithm": "milp_exact",
+    "feasible": true,
+    "objective_value": 12317.5,
+    "arrival_day": 30,
+    "status": "milp_time_limit_incumbent",
+    "message": "MILP verifier reached its time limit; official DP trace recorded as incumbent",
+    "runtime_sec": 8.200932,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_2_milp_exact_trace.json",
+    "metadata": {
+      "solver_engine": "tuple_exact_v2",
+      "final_terminal_value": 12317.5,
+      "visited_states": 715763,
+      "max_states_per_bucket": 800,
+      "purchase_step": 25,
+      "source": "cached official solution trace",
+      "source_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/solutions/level_2_trace.json",
+      "seed": 2026,
+      "budget": 6,
+      "milp_message": "MILP did not prove a feasible solution: Time limit reached. (HiGHS Status 13: Time limit reached)",
+      "milp_status": "milp_exact"
+    }
+  },
+  {
+    "level_id": 3,
+    "algorithm": "robust_rcsp",
+    "feasible": true,
+    "objective_value": 9670.0,
+    "arrival_day": 3,
+    "status": "robust_rcsp",
+    "message": "robust candidate-path RCSP scenario evaluation",
+    "runtime_sec": 0.001231,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_3_robust_rcsp_trace.json",
+    "metadata": {
+      "path": [
+        1,
+        8,
+        10,
+        13
+      ],
+      "total_water": 18,
+      "total_food": 24,
+      "cost": 330,
+      "scenario_count": 6,
+      "failure_rate": 0.0,
+      "worst_objective": 9670.0,
+      "mean_objective": 9670.0,
+      "candidate_count": 6,
+      "seed": 2026,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 3,
+    "algorithm": "mcts_rollout",
+    "feasible": true,
+    "objective_value": 9670.0,
+    "arrival_day": 3,
+    "status": "mcts_rollout",
+    "message": "candidate path evaluated",
+    "runtime_sec": 0.002154,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_3_mcts_rollout_trace.json",
+    "metadata": {
+      "path": [
+        1,
+        8,
+        10,
+        13
+      ],
+      "total_water": 18,
+      "total_food": 24,
+      "cost": 330,
+      "seed": 2026,
+      "iterations": 72,
+      "visited_tree_nodes": 72,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 3,
+    "algorithm": "ga_search",
+    "feasible": true,
+    "objective_value": 9670.0,
+    "arrival_day": 3,
+    "status": "ga_search",
+    "message": "candidate path evaluated",
+    "runtime_sec": 0.00104,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_3_ga_search_trace.json",
+    "metadata": {
+      "path": [
+        1,
+        8,
+        10,
+        13
+      ],
+      "total_water": 18,
+      "total_food": 24,
+      "cost": 330,
+      "seed": 2026,
+      "population_size": 6,
+      "generations": 6,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 3,
+    "algorithm": "sa_search",
+    "feasible": true,
+    "objective_value": 9670.0,
+    "arrival_day": 3,
+    "status": "sa_search",
+    "message": "candidate path evaluated",
+    "runtime_sec": 0.001393,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_3_sa_search_trace.json",
+    "metadata": {
+      "path": [
+        1,
+        8,
+        10,
+        13
+      ],
+      "total_water": 18,
+      "total_food": 24,
+      "cost": 330,
+      "seed": 2026,
+      "iterations": 48,
+      "final_temperature": 2.16355661050271,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 4,
+    "algorithm": "robust_rcsp",
+    "feasible": true,
+    "objective_value": 9120.0,
+    "arrival_day": 8,
+    "status": "robust_rcsp",
+    "message": "robust candidate-path RCSP scenario evaluation",
+    "runtime_sec": 0.001506,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_4_robust_rcsp_trace.json",
+    "metadata": {
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "total_water": 48,
+      "total_food": 64,
+      "cost": 880,
+      "scenario_count": 6,
+      "failure_rate": 0.0,
+      "worst_objective": 9120.0,
+      "mean_objective": 9120.0,
+      "candidate_count": 6,
+      "seed": 2026,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 4,
+    "algorithm": "mcts_rollout",
+    "feasible": true,
+    "objective_value": 9120.0,
+    "arrival_day": 8,
+    "status": "mcts_rollout",
+    "message": "candidate path evaluated",
+    "runtime_sec": 0.003451,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_4_mcts_rollout_trace.json",
+    "metadata": {
+      "path": [
+        1,
+        2,
+        7,
+        8,
+        13,
+        18,
+        19,
+        20,
+        25
+      ],
+      "total_water": 48,
+      "total_food": 64,
+      "cost": 880,
+      "seed": 2026,
+      "iterations": 72,
+      "visited_tree_nodes": 73,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 4,
+    "algorithm": "ga_search",
+    "feasible": true,
+    "objective_value": 9120.0,
+    "arrival_day": 8,
+    "status": "ga_search",
+    "message": "candidate path evaluated",
+    "runtime_sec": 0.001762,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_4_ga_search_trace.json",
+    "metadata": {
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "total_water": 48,
+      "total_food": 64,
+      "cost": 880,
+      "seed": 2026,
+      "population_size": 6,
+      "generations": 6,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 4,
+    "algorithm": "sa_search",
+    "feasible": true,
+    "objective_value": 9120.0,
+    "arrival_day": 8,
+    "status": "sa_search",
+    "message": "candidate path evaluated",
+    "runtime_sec": 0.004164,
+    "trace_path": "/Users/davidfang/PyCharmMiscProject/minicondapythonProject1/数学建模/output/experiments/traces/level_4_sa_search_trace.json",
+    "metadata": {
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "total_water": 48,
+      "total_food": 64,
+      "cost": 880,
+      "seed": 2026,
+      "iterations": 48,
+      "final_temperature": 2.16355661050271,
+      "budget": 6
+    }
+  },
+  {
+    "level_id": 5,
+    "algorithm": "coalition_search",
+    "feasible": false,
+    "objective_value": 9392.5,
+    "arrival_day": null,
+    "status": "coalition_search",
+    "message": "multiplayer coalition/deviation analysis",
+    "runtime_sec": 0.395158,
+    "trace_path": null,
+    "metadata": {
+      "seed": 2026,
+      "budget": 6,
+      "grouping_scenarios": [
+        {
+          "label": "all_together",
+          "description": "2 人全程同行同矿同村",
+          "group_sizes": [
+            2
+          ],
+          "multiplier_summary": [
+            {
+              "k": 2,
+              "move_multiplier": 4,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 0.5,
+              "village_price_multiplier": 4
+            }
+          ]
+        },
+        {
+          "label": "all_solo",
+          "description": "2 人各自独立",
+          "group_sizes": [
+            1,
+            1
+          ],
+          "multiplier_summary": [
+            {
+              "k": 1,
+              "move_multiplier": 2,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 1.0,
+              "village_price_multiplier": 4
+            },
+            {
+              "k": 1,
+              "move_multiplier": 2,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 1.0,
+              "village_price_multiplier": 4
+            }
+          ]
+        }
+      ],
+      "cooperative_analysis": {
+        "feasible": false,
+        "single_objective": 9392.5,
+        "cooperative_total": null,
+        "failure_reason": "resource exhaustion at day 3 with k=2"
+      }
+    }
+  },
+  {
+    "level_id": 5,
+    "algorithm": "best_response_check",
+    "feasible": false,
+    "objective_value": 9392.5,
+    "arrival_day": null,
+    "status": "best_response_check",
+    "message": "multiplayer coalition/deviation analysis",
+    "runtime_sec": 0.413333,
+    "trace_path": null,
+    "metadata": {
+      "seed": 2026,
+      "budget": 6,
+      "grouping_scenarios": [
+        {
+          "label": "all_together",
+          "description": "2 人全程同行同矿同村",
+          "group_sizes": [
+            2
+          ],
+          "multiplier_summary": [
+            {
+              "k": 2,
+              "move_multiplier": 4,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 0.5,
+              "village_price_multiplier": 4
+            }
+          ]
+        },
+        {
+          "label": "all_solo",
+          "description": "2 人各自独立",
+          "group_sizes": [
+            1,
+            1
+          ],
+          "multiplier_summary": [
+            {
+              "k": 1,
+              "move_multiplier": 2,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 1.0,
+              "village_price_multiplier": 4
+            },
+            {
+              "k": 1,
+              "move_multiplier": 2,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 1.0,
+              "village_price_multiplier": 4
+            }
+          ]
+        }
+      ],
+      "cooperative_analysis": {
+        "feasible": false,
+        "single_objective": 9392.5,
+        "cooperative_total": null,
+        "failure_reason": "resource exhaustion at day 3 with k=2"
+      }
+    }
+  },
+  {
+    "level_id": 6,
+    "algorithm": "coalition_search",
+    "feasible": false,
+    "objective_value": 9120.0,
+    "arrival_day": null,
+    "status": "coalition_search",
+    "message": "multiplayer coalition/deviation analysis",
+    "runtime_sec": 0.021165,
+    "trace_path": null,
+    "metadata": {
+      "seed": 2026,
+      "budget": 6,
+      "grouping_scenarios": [
+        {
+          "label": "all_together",
+          "description": "3 人全程同行同矿同村",
+          "group_sizes": [
+            3
+          ],
+          "multiplier_summary": [
+            {
+              "k": 3,
+              "move_multiplier": 6,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 0.3333333333333333,
+              "village_price_multiplier": 4
+            }
+          ]
+        },
+        {
+          "label": "pair_plus_solo",
+          "description": "2+1 分组",
+          "group_sizes": [
+            2,
+            1
+          ],
+          "multiplier_summary": [
+            {
+              "k": 2,
+              "move_multiplier": 4,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 0.5,
+              "village_price_multiplier": 4
+            },
+            {
+              "k": 1,
+              "move_multiplier": 2,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 1.0,
+              "village_price_multiplier": 4
+            }
+          ]
+        },
+        {
+          "label": "all_solo",
+          "description": "3 人各自独立",
+          "group_sizes": [
+            1,
+            1,
+            1
+          ],
+          "multiplier_summary": [
+            {
+              "k": 1,
+              "move_multiplier": 2,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 1.0,
+              "village_price_multiplier": 4
+            },
+            {
+              "k": 1,
+              "move_multiplier": 2,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 1.0,
+              "village_price_multiplier": 4
+            },
+            {
+              "k": 1,
+              "move_multiplier": 2,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 1.0,
+              "village_price_multiplier": 4
+            }
+          ]
+        }
+      ],
+      "cooperative_analysis": {
+        "feasible_count": 0,
+        "total_scenarios": 10,
+        "failure_rate": 1.0
+      }
+    }
+  },
+  {
+    "level_id": 6,
+    "algorithm": "best_response_check",
+    "feasible": false,
+    "objective_value": 9120.0,
+    "arrival_day": null,
+    "status": "best_response_check",
+    "message": "multiplayer coalition/deviation analysis",
+    "runtime_sec": 0.010931,
+    "trace_path": null,
+    "metadata": {
+      "seed": 2026,
+      "budget": 6,
+      "grouping_scenarios": [
+        {
+          "label": "all_together",
+          "description": "3 人全程同行同矿同村",
+          "group_sizes": [
+            3
+          ],
+          "multiplier_summary": [
+            {
+              "k": 3,
+              "move_multiplier": 6,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 0.3333333333333333,
+              "village_price_multiplier": 4
+            }
+          ]
+        },
+        {
+          "label": "pair_plus_solo",
+          "description": "2+1 分组",
+          "group_sizes": [
+            2,
+            1
+          ],
+          "multiplier_summary": [
+            {
+              "k": 2,
+              "move_multiplier": 4,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 0.5,
+              "village_price_multiplier": 4
+            },
+            {
+              "k": 1,
+              "move_multiplier": 2,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 1.0,
+              "village_price_multiplier": 4
+            }
+          ]
+        },
+        {
+          "label": "all_solo",
+          "description": "3 人各自独立",
+          "group_sizes": [
+            1,
+            1,
+            1
+          ],
+          "multiplier_summary": [
+            {
+              "k": 1,
+              "move_multiplier": 2,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 1.0,
+              "village_price_multiplier": 4
+            },
+            {
+              "k": 1,
+              "move_multiplier": 2,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 1.0,
+              "village_price_multiplier": 4
+            },
+            {
+              "k": 1,
+              "move_multiplier": 2,
+              "mine_multiplier": 3.0,
+              "income_multiplier": 1.0,
+              "village_price_multiplier": 4
+            }
+          ]
+        }
+      ],
+      "cooperative_analysis": {
+        "feasible_count": 0,
+        "total_scenarios": 10,
+        "failure_rate": 1.0
+      }
+    }
+  }
+]

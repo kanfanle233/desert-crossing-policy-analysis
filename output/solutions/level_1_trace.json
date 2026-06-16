@@ -5,8 +5,9 @@
   "status": "optimal_search",
   "message": "best reviewed deterministic trace found",
   "metadata": {
+    "solver_engine": "tuple_exact_v2",
     "final_terminal_value": 11212.5,
-    "visited_states": 416322,
+    "visited_states": 403837,
     "max_states_per_bucket": 800,
     "purchase_step": 25
   },
@@ -302,15 +303,15 @@
     {
       "day": 16,
       "node": 15,
-      "cash": 7210,
-      "water": 28,
+      "cash": 5210,
+      "water": 228,
       "food": 225,
       "finished": false,
       "action": "move",
       "from_node": 13,
       "to_node": 15,
       "weather": "高温",
-      "buy_water": 25,
+      "buy_water": 225,
       "buy_food": 0,
       "consume_water": 16,
       "consume_food": 12,
@@ -320,8 +321,8 @@
     {
       "day": 17,
       "node": 15,
-      "cash": 7210,
-      "water": 18,
+      "cash": 5210,
+      "water": 218,
       "food": 215,
       "finished": false,
       "action": "stay",
@@ -346,12 +347,12 @@
       "from_node": 15,
       "to_node": 15,
       "weather": "沙暴",
-      "buy_water": 200,
+      "buy_water": 0,
       "buy_food": 0,
       "consume_water": 10,
       "consume_food": 10,
       "income": 0,
-      "note": "village purchase"
+      "note": ""
     },
     {
       "day": 19,

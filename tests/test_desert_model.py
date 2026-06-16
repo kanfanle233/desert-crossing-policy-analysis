@@ -1,11 +1,15 @@
+import json
+import tempfile
 import unittest
 from collections import deque
+from pathlib import Path
 
+from desert_model.algorithm_runner import run_algorithm, run_benchmark, solve_astar_dp, solve_milp_exact, solve_rcsp_label
 from desert_model.config import load_levels
 from desert_model.models import LevelConfig, PlayerState, ResourceSpec, RuleConfig, WEATHER_SUNNY, WEATHER_HOT, WEATHER_STORM
 from desert_model.multiplayer import multiplayer_strategy_summary, compute_effect_table
 from desert_model.rules import carried_weight, daily_consumption, purchase_options, resource_cost, terminal_value
-from desert_model.solver import solve_deterministic_level
+from desert_model.solver import _tuple_purchase_options, solve_deterministic_level
 from desert_model.validate import validate_level, validate_trace
 
 
@@ -30,6 +34,38 @@ def tiny_level() -> LevelConfig:
         deadline=2,
         carry_limit_kg=20,
         initial_cash=100,
+        base_income=0,
+        resources=resources,
+        start_node=1,
+        goal_node=3,
+        weather=(WEATHER_SUNNY, WEATHER_SUNNY),
+        adjacency={1: (2,), 2: (1, 3), 3: (2,)},
+        rules=RuleConfig(move_multiplier=1.0, mine_multiplier=2.0),
+        review_required=False,
+    )
+
+
+def coarse_tiny_level() -> LevelConfig:
+    resources = {
+        "water": ResourceSpec(
+            name="water",
+            mass_kg=1,
+            base_price=1,
+            base_consumption={WEATHER_SUNNY: 25, "高温": 25, "沙暴": 25},
+        ),
+        "food": ResourceSpec(
+            name="food",
+            mass_kg=1,
+            base_price=1,
+            base_consumption={WEATHER_SUNNY: 25, "高温": 25, "沙暴": 25},
+        ),
+    }
+    return LevelConfig(
+        level_id=100,
+        name="coarse tiny",
+        deadline=2,
+        carry_limit_kg=200,
+        initial_cash=1000,
         base_income=0,
         resources=resources,
         start_node=1,
@@ -171,7 +207,18 @@ class SolverTests(unittest.TestCase):
         self.assertTrue(trace.feasible, trace.message)
         self.assertEqual(trace.final_state().node, 3)
         self.assertEqual(trace.final_state().day, 2)
+        self.assertEqual(trace.metadata.get("solver_engine"), "tuple_exact_v2")
         self.assertEqual(validate_trace(level, trace), [])
+
+    def test_tuple_purchase_options_match_public_rules(self) -> None:
+        level = tiny_level()
+        state = PlayerState(0, level.start_node, 100, 0, 0, False)
+        public_options = {
+            (opt.day, opt.node, opt.cash, opt.water, opt.food, opt.finished)
+            for opt in purchase_options(level, state, price_multiplier=1.0, max_options=100, step=1)
+        }
+        tuple_options = set(_tuple_purchase_options(level, (0, level.start_node, 100, 0, 0, False), 1.0, 100, 1))
+        self.assertEqual(tuple_options, public_options)
 
     def test_tiny_solver_blocks_illegal_storm_move(self) -> None:
         level = tiny_level()
@@ -213,6 +260,26 @@ class SolverTests(unittest.TestCase):
         for step in trace.steps:
             self.assertGreaterEqual(step.state.water, 0)
             self.assertGreaterEqual(step.state.food, 0)
+
+    def test_resources_positive_before_finish(self) -> None:
+        """Unfinished states must retain positive water and food after day 0."""
+        level = tiny_level()
+        trace = solve_deterministic_level(level, purchase_step=1)
+        self.assertTrue(trace.feasible)
+        for step in trace.steps:
+            if step.day > 0 and not step.state.finished:
+                self.assertGreater(step.state.water, 0)
+                self.assertGreater(step.state.food, 0)
+
+    def test_initial_purchase_action_records_resources(self) -> None:
+        """The initial trace row must record the purchased resources."""
+        level = tiny_level()
+        trace = solve_deterministic_level(level, purchase_step=1)
+        self.assertTrue(trace.feasible)
+        first_action = trace.steps[0].action
+        self.assertIsNotNone(first_action)
+        self.assertEqual(first_action.buy_water, trace.steps[0].state.water)
+        self.assertEqual(first_action.buy_food, trace.steps[0].state.food)
 
     def test_cash_non_negative_throughout_trace(self) -> None:
         """Cash must never go negative in a feasible trace."""
@@ -303,6 +370,57 @@ class SolverTests(unittest.TestCase):
         water, food = daily_consumption(level, "晴朗", level.rules.mine_multiplier)
         self.assertEqual(water, 15)  # 5 * 3
         self.assertEqual(food, 21)   # 7 * 3
+
+
+class AlgorithmRunnerTests(unittest.TestCase):
+    def test_astar_rcsp_and_milp_match_tiny_optimum(self) -> None:
+        level = tiny_level()
+        weather = tuple(level.weather or ())
+        baseline = solve_deterministic_level(level, purchase_step=1)
+        astar = solve_astar_dp(level, weather, ignore_review=True, purchase_step=1)
+        rcsp = solve_rcsp_label(level, weather, ignore_review=True, purchase_step=1)
+        milp = solve_milp_exact(level, weather, time_limit=5.0)
+        for trace in (baseline, astar, rcsp, milp):
+            self.assertTrue(trace.feasible, trace.message)
+            self.assertEqual(validate_trace(level, trace), [])
+            self.assertEqual(trace.final_state().node, level.goal_node)
+        self.assertEqual(baseline.objective_value, 96)
+        self.assertEqual(astar.objective_value, baseline.objective_value)
+        self.assertEqual(rcsp.objective_value, baseline.objective_value)
+        self.assertEqual(milp.objective_value, baseline.objective_value)
+
+    def test_seeded_heuristic_algorithms_are_reproducible(self) -> None:
+        level = tiny_level()
+        first = run_algorithm(level, "ga_search", seed=123, budget=5)
+        second = run_algorithm(level, "ga_search", seed=123, budget=5)
+        self.assertTrue(first.feasible, first.message)
+        self.assertEqual(first.objective_value, second.objective_value)
+        self.assertEqual(first.metadata.get("path"), second.metadata.get("path"))
+
+    def test_benchmark_writes_schema_files(self) -> None:
+        level = coarse_tiny_level()
+        with tempfile.TemporaryDirectory() as tmp:
+            output_dir = Path(tmp) / "experiments"
+            rows = run_benchmark(
+                [level],
+                output_dir,
+                algorithms=("current_dp", "astar_dp", "rcsp_label", "milp_exact", "ga_search"),
+                budget=4,
+                scenario_limit=2,
+            )
+            self.assertEqual(len(rows), 5)
+            csv_path = output_dir / "algorithm_benchmark.csv"
+            json_path = output_dir / "algorithm_benchmark.json"
+            md_path = output_dir.parent / "report_tables" / "algorithm_comparison.md"
+            self.assertTrue(csv_path.exists())
+            self.assertTrue(json_path.exists())
+            self.assertTrue(md_path.exists())
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+            self.assertEqual({row["algorithm"] for row in payload}, {"current_dp", "astar_dp", "rcsp_label", "milp_exact", "ga_search"})
+            for row in payload:
+                self.assertIn("runtime_sec", row)
+                self.assertIn("feasible", row)
+                self.assertIn("trace_path", row)
 
 
 class MultiplayerTests(unittest.TestCase):

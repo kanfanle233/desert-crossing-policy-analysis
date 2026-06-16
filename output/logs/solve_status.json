@@ -13,8 +13,9 @@
       "finished": true
     },
     "metadata": {
+      "solver_engine": "tuple_exact_v2",
       "final_terminal_value": 11212.5,
-      "visited_states": 416322,
+      "visited_states": 403837,
       "max_states_per_bucket": 800,
       "purchase_step": 25
     }
@@ -33,8 +34,9 @@
       "finished": true
     },
     "metadata": {
+      "solver_engine": "tuple_exact_v2",
       "final_terminal_value": 12317.5,
-      "visited_states": 725089,
+      "visited_states": 715763,
       "max_states_per_bucket": 800,
       "purchase_step": 25
     }

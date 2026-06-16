@@ -289,6 +289,9 @@ def _build_frontend_payload(traces: Mapping[int, Mapping[str, object]], output_r
         "level_1_trace": _file_info(output_root / "solutions" / "level_1_trace.json"),
         "level_2_trace": _file_info(output_root / "solutions" / "level_2_trace.json"),
         "analysis_summary": _file_info(report_tables / "analysis_summary.json"),
+        "algorithm_benchmark": _file_info(output_root / "experiments" / "algorithm_benchmark.json"),
+        "algorithm_comparison": _file_info(report_tables / "algorithm_comparison.md"),
+        "core_solver_optimization": _file_info(output_root / "logs" / "core_solver_optimization.md"),
         "level_3_scenarios": _file_info(report_tables / "level_3_scenarios.csv"),
         "level_4_scenarios": _file_info(report_tables / "level_4_scenarios.csv"),
         "config": _file_info(Path(__file__).resolve().parents[1] / "configs" / "levels.json"),
@@ -1167,21 +1170,43 @@ def write_frontend(traces: Mapping[int, Mapping[str, object]], output_root: Path
     return path
 
 
-def generate_visual_outputs(output_root: Path) -> Dict[str, str]:
+def generate_visual_outputs(output_root: Path) -> Dict[str, object]:
     figures = output_root / "figures"
     frontend = output_root / "frontend"
     traces: Dict[int, Mapping[str, object]] = {}
+    figure_errors: List[Dict[str, str]] = []
     for level_id in (1, 2):
         trace_path = output_root / "solutions" / ("level_%s_trace.json" % level_id)
         trace = read_trace(trace_path)
         traces[level_id] = trace
-        generate_resource_figure(trace, figures / ("level_%s_resources.png" % level_id))
-        generate_path_figure(level_id, trace, figures / ("level_%s_path.png" % level_id))
+        resource_path = figures / ("level_%s_resources.png" % level_id)
+        path_path = figures / ("level_%s_path.png" % level_id)
+        try:
+            generate_resource_figure(trace, resource_path)
+        except Exception as exc:  # pragma: no cover - depends on local matplotlib/Pillow install
+            figure_errors.append(
+                {
+                    "figure": "level_%s_resources" % level_id,
+                    "path": str(resource_path),
+                    "error": "%s: %s" % (type(exc).__name__, exc),
+                }
+            )
+        try:
+            generate_path_figure(level_id, trace, path_path)
+        except Exception as exc:  # pragma: no cover - depends on local matplotlib/Pillow install
+            figure_errors.append(
+                {
+                    "figure": "level_%s_path" % level_id,
+                    "path": str(path_path),
+                    "error": "%s: %s" % (type(exc).__name__, exc),
+                }
+            )
     frontend_path = write_frontend(traces, output_root, frontend)
     summary_path = output_root / "report_tables" / "visualization_summary.json"
     summary_path.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "figures": sorted(str(path) for path in figures.glob("*.png")),
+        "figure_errors": figure_errors,
         "frontend": str(frontend_path),
         "frontend_data": str(frontend / "dashboard-data.js"),
         "frontend_vendor": str(frontend / "vendor" / "d3.v7.min.js"),
